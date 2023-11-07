@@ -1,0 +1,1 @@
+import{_ as o}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as n,a as e}from"./app-c148950f.js";const c="/wordcloud.png",r={},s=e("figure",null,[e("img",{src:c,alt:"词云",tabindex:"0",loading:"lazy"}),e("figcaption",null,"词云")],-1),_=[s];function a(i,l){return t(),n("div",null,_)}const m=o(r,[["render",a],["__file","index.html.vue"]]);export{m as default};
