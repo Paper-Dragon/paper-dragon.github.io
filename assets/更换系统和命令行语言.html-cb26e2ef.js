@@ -1,0 +1,9 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as r,c as a,f as o}from"./app-9ac753bd.js";const n={},t=o(`<h1 id="更换系统和命令行语言" tabindex="-1"><a class="header-anchor" href="#更换系统和命令行语言" aria-hidden="true">#</a> 更换系统和命令行语言</h1><h1 id="一-背景信息" tabindex="-1"><a class="header-anchor" href="#一-背景信息" aria-hidden="true">#</a> 一.背景信息</h1><p>在安装完 kali linux 2020.1 时，其操作系统默认语言为英文的，我们操作起来比较麻烦，为了以后操作方便起见，这边将其操作系统默认语言更改为中文。本篇文章将带领各位小伙伴们一起去将操作系统默认语言更改为中文</p><h1 id="二-操作步骤" tabindex="-1"><a class="header-anchor" href="#二-操作步骤" aria-hidden="true">#</a> 二.操作步骤</h1><pre><code>打开Terminal Emulator 界面，查看当前系统语言为默认英文
+
+
+
+在Terminal Emulator 中执行dpkg-reconfigure locales命令
+
+注意：如果是root用户可直接执行dpkg-reconfigure locales命令，如果是kali用户则需先切换成root用户登陆再进行执行
+具体切换成root用户登陆请参考下列链接地址：https://blog.csdn.net/weixin_46192679/article/details/104474829
+</code></pre><p>3.找到en_US.UTF-8 UTF-8选项，按空格键将其进行取消</p><p>4.找到[ ]zh_CN.GBK_GBK 和[ ] zh-CN.UTF-8.UTF-8两个选项，使用空格将[ ]zh_CN.GBK_GBK 和[ ] zh-CN.UTF-8.UTF-8其两项勾选上</p><p>5.勾选完毕以后，在<code>0k</code>处按下空格，进行下一步</p><p>​ 在此处选择zh_CN.UTF-8字符编码，在<code>0k</code>处按空格键进行确认 ，并完成相关配置操作<br> 7.配置完毕以后，使用reboot命令重启系统使其生效</p><p>8.重启完毕以后，可以看到相关登陆登陆页面已经是中文显示了，至此配置完毕。</p><h1 id="三-相关总结" tabindex="-1"><a class="header-anchor" href="#三-相关总结" aria-hidden="true">#</a> 三.相关总结</h1><p>1.打开Terminal Emulator 界面，查看当前系统语言为默认英文<br> 2.在Terminal Emulator 中执行dpkg-reconfigure locales命令<br> 3.使用空格键取消勾选en_US.UTF-8 UTF-8选项<br> 4.勾选[ ]zh_CN.GBK_GBK 和[ ] zh-CN.UTF-8.UTF-8两个选项<br> 5.使用reboot命令重启机器使其配置生效</p>`,12),c=[t];function i(d,h){return r(),a("div",null,c)}const s=e(n,[["render",i],["__file","更换系统和命令行语言.html.vue"]]);export{s as default};
