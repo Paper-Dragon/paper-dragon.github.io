@@ -61,7 +61,7 @@
     },
     {
         "name": "Ubuntu",
-        "value": 67
+        "value": 68
     },
     {
         "name": "VMware",
@@ -640,6 +640,10 @@
         "value": 16
     },
     {
+        "name": "Debian",
+        "value": 16
+    },
+    {
         "name": "Query",
         "value": 16
     },
@@ -706,10 +710,6 @@
     {
         "name": "Bash",
         "value": 16
-    },
-    {
-        "name": "Debian",
-        "value": 15
     },
     {
         "name": "这时候",
