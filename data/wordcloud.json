@@ -104,6 +104,10 @@
         "value": 52
     },
     {
+        "name": "防火墙",
+        "value": 51
+    },
+    {
         "name": "关键字",
         "value": 51
     },
@@ -113,10 +117,6 @@
     },
     {
         "name": "GitLab",
-        "value": 50
-    },
-    {
-        "name": "防火墙",
         "value": 50
     },
     {
@@ -1448,6 +1448,10 @@
         "value": 9
     },
     {
+        "name": "CloudFlare",
+        "value": 9
+    },
+    {
         "name": "Updating",
         "value": 9
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "处理器",
-        "value": 8
-    },
-    {
-        "name": "Remote",
         "value": 8
     }
 ]
