@@ -1,0 +1,13 @@
+import{_ as a}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as s,c as n,e}from"./app-hdfCdza_.js";const i={},t=e(`<h1 id="git-的代理配置" tabindex="-1"><a class="header-anchor" href="#git-的代理配置" aria-hidden="true">#</a> Git 的代理配置</h1><p>Git 是我经常用的软件。出于某些原因我经常要从 GitHub 这些网站上下载文件。但是 Git 不会从终端中继承代理设置。所以我平时用 export 设置的代理就用不上了。之后在网上找了几种给 Git 设置代理的方法。</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> http.proxy <span class="token string">&#39;http://192.168.0.1:1080&#39;</span>
+
+<span class="token function">git</span> config <span class="token parameter variable">--global</span> https.proxy <span class="token string">&#39;http://192.168.0.1:1080&#39;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>设置完之后可以使用这个命令查看 Git 的配置。</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> config <span class="token parameter variable">--list</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>想退出查看界面的话就按下 Q 键。</p><p>当然还可以使用这个命令直接编辑 Git 的配置文件。</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--edit</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>打开配置文件之后会是这样的。</p><div class="language-json line-numbers-mode" data-ext="json"><pre class="language-json"><code><span class="token punctuation">[</span>http<span class="token punctuation">]</span>
+
+proxy = http<span class="token operator">:</span><span class="token comment">//192.168.0.1:1080</span>
+
+<span class="token punctuation">[</span>https<span class="token punctuation">]</span>
+
+proxy = http<span class="token operator">:</span><span class="token comment">//192.168.0.1:1080</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这里的编辑器应该默认是 Vim ，据说可以根据自己爱好换成其他的编辑器。</p>`,11),l=[t];function p(c,r){return s(),n("div",null,l)}const u=a(i,[["render",p],["__file","Git 的代理配置.html.vue"]]);export{u as default};
