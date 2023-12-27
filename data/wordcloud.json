@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 325
+        "value": 326
     },
     {
         "name": "文件系统",
@@ -1388,6 +1388,10 @@
         "value": 10
     },
     {
+        "name": "Shell",
+        "value": 10
+    },
+    {
         "name": "About",
         "value": 10
     },
@@ -1525,10 +1529,6 @@
     },
     {
         "name": "Avail",
-        "value": 9
-    },
-    {
-        "name": "Shell",
         "value": 9
     },
     {
