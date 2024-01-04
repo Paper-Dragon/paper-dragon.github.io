@@ -57,7 +57,7 @@
     },
     {
         "name": "Zabbix",
-        "value": 69
+        "value": 71
     },
     {
         "name": "XrayR",
@@ -1284,6 +1284,10 @@
         "value": 10
     },
     {
+        "name": "Agent",
+        "value": 10
+    },
+    {
         "name": "OAuth2PasswordBearer",
         "value": 10
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "间隔时间",
-        "value": 8
-    },
-    {
-        "name": "Accept",
         "value": 8
     }
 ]
