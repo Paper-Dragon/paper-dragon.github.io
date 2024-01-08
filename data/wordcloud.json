@@ -17,7 +17,7 @@
     },
     {
         "name": "操作系统",
-        "value": 139
+        "value": 140
     },
     {
         "name": "Python",
@@ -44,16 +44,16 @@
         "value": 87
     },
     {
+        "name": "浏览器",
+        "value": 76
+    },
+    {
         "name": "IP地址",
         "value": 74
     },
     {
-        "name": "浏览器",
-        "value": 74
-    },
-    {
         "name": "Windows",
-        "value": 72
+        "value": 74
     },
     {
         "name": "Zabbix",
