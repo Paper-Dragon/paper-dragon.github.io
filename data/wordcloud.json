@@ -76,16 +76,16 @@
         "value": 61
     },
     {
+        "name": "Nginx",
+        "value": 61
+    },
+    {
         "name": "VMware",
         "value": 61
     },
     {
         "name": "二进制",
         "value": 60
-    },
-    {
-        "name": "Nginx",
-        "value": 58
     },
     {
         "name": "CentOS",
@@ -137,7 +137,7 @@
     },
     {
         "name": "服务端",
-        "value": 45
+        "value": 46
     },
     {
         "name": "NetworkPolicy",
@@ -304,6 +304,10 @@
         "value": 27
     },
     {
+        "name": "Request",
+        "value": 26
+    },
+    {
         "name": "数据结构",
         "value": 26
     },
@@ -353,10 +357,6 @@
     },
     {
         "name": "Network",
-        "value": 24
-    },
-    {
-        "name": "Request",
         "value": 24
     },
     {
@@ -780,6 +780,10 @@
         "value": 15
     },
     {
+        "name": "转发给",
+        "value": 15
+    },
+    {
         "name": "Reserved",
         "value": 15
     },
@@ -864,10 +868,6 @@
         "value": 14
     },
     {
-        "name": "转发给",
-        "value": 14
-    },
-    {
         "name": "资源配置",
         "value": 14
     },
@@ -909,6 +909,10 @@
     },
     {
         "name": "Access",
+        "value": 13
+    },
+    {
+        "name": "发送给",
         "value": 13
     },
     {
@@ -997,10 +1001,6 @@
     },
     {
         "name": "ExecStart",
-        "value": 12
-    },
-    {
-        "name": "发送给",
         "value": 12
     },
     {
