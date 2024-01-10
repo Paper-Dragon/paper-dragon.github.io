@@ -9,7 +9,7 @@
     },
     {
         "name": "Docker",
-        "value": 181
+        "value": 180
     },
     {
         "name": "数据库",
@@ -88,11 +88,11 @@
         "value": 60
     },
     {
-        "name": "CentOS",
-        "value": 55
+        "name": "分隔符",
+        "value": 54
     },
     {
-        "name": "分隔符",
+        "name": "CentOS",
         "value": 54
     },
     {
@@ -1056,10 +1056,6 @@
         "value": 12
     },
     {
-        "name": "Warning",
-        "value": 12
-    },
-    {
         "name": "Documentation",
         "value": 12
     },
@@ -1185,6 +1181,10 @@
     },
     {
         "name": "OpenSSH",
+        "value": 11
+    },
+    {
+        "name": "Warning",
         "value": 11
     },
     {
