@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 326
+        "value": 327
     },
     {
         "name": "文件系统",
@@ -1076,6 +1076,10 @@
         "value": 12
     },
     {
+        "name": "随机化",
+        "value": 12
+    },
+    {
         "name": "Rewrite",
         "value": 12
     },
@@ -1221,10 +1225,6 @@
     },
     {
         "name": "Dependency",
-        "value": 11
-    },
-    {
-        "name": "随机化",
         "value": 11
     },
     {
