@@ -1,5 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as a,c as r,e as s}from"./app-C9P0y1Ip.js";const c={},n=s(`<h1 id="crictl登录dockerhub" tabindex="-1"><a class="header-anchor" href="#crictl登录dockerhub" aria-hidden="true">#</a> crictl登录dockerhub</h1><h2 id="例子" tabindex="-1"><a class="header-anchor" href="#例子" aria-hidden="true">#</a> 例子</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>crictl pull <span class="token parameter variable">--creds</span> jockerdragon:xxxxxxx  eipwork/kuboard:v3
-
-
-<span class="token parameter variable">--cert</span> username<span class="token punctuation">[</span>:password<span class="token punctuation">]</span> lai&#39;s
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3),i=[n];function t(d,l){return a(),r("div",null,i)}const h=e(c,[["render",t],["__file","crictl登录dockerhub.html.vue"]]);export{h as default};
