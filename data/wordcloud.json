@@ -1292,6 +1292,10 @@
         "value": 10
     },
     {
+        "name": "特殊字符",
+        "value": 10
+    },
+    {
         "name": "Exception",
         "value": 10
     },
@@ -1465,10 +1469,6 @@
     },
     {
         "name": "Process",
-        "value": 9
-    },
-    {
-        "name": "特殊字符",
         "value": 9
     },
     {
