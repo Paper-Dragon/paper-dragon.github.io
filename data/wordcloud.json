@@ -44,6 +44,10 @@
         "value": 87
     },
     {
+        "name": "Windows",
+        "value": 79
+    },
+    {
         "name": "浏览器",
         "value": 76
     },
@@ -52,20 +56,16 @@
         "value": 74
     },
     {
-        "name": "Windows",
-        "value": 74
-    },
-    {
         "name": "Zabbix",
         "value": 71
     },
     {
-        "name": "XrayR",
+        "name": "Ubuntu",
         "value": 69
     },
     {
-        "name": "Ubuntu",
-        "value": 68
+        "name": "XrayR",
+        "value": 69
     },
     {
         "name": "文件名",
@@ -88,6 +88,14 @@
         "value": 60
     },
     {
+        "name": "命令行",
+        "value": 54
+    },
+    {
+        "name": "环境变量",
+        "value": 54
+    },
+    {
         "name": "分隔符",
         "value": 54
     },
@@ -96,16 +104,8 @@
         "value": 54
     },
     {
-        "name": "环境变量",
-        "value": 53
-    },
-    {
         "name": "MySQL",
         "value": 53
-    },
-    {
-        "name": "命令行",
-        "value": 52
     },
     {
         "name": "文件夹",
@@ -356,6 +356,10 @@
         "value": 24
     },
     {
+        "name": "实际上",
+        "value": 24
+    },
+    {
         "name": "Network",
         "value": 24
     },
@@ -381,10 +385,6 @@
     },
     {
         "name": "Total",
-        "value": 23
-    },
-    {
-        "name": "实际上",
         "value": 23
     },
     {
@@ -416,6 +416,10 @@
         "value": 23
     },
     {
+        "name": "为什么",
+        "value": 22
+    },
+    {
         "name": "一部分",
         "value": 22
     },
@@ -445,10 +449,6 @@
     },
     {
         "name": "Content",
-        "value": 21
-    },
-    {
-        "name": "为什么",
         "value": 21
     },
     {
@@ -974,6 +974,10 @@
     {
         "name": "ServiceAccount",
         "value": 13
+    },
+    {
+        "name": "E5%",
+        "value": 12
     },
     {
         "name": "一系列",
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "变量名",
-        "value": 8
-    },
-    {
-        "name": "Test",
         "value": 8
     }
 ]
