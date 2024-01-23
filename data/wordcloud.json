@@ -9,7 +9,7 @@
     },
     {
         "name": "Docker",
-        "value": 180
+        "value": 183
     },
     {
         "name": "数据库",
@@ -56,12 +56,12 @@
         "value": 74
     },
     {
-        "name": "Zabbix",
+        "name": "Ubuntu",
         "value": 71
     },
     {
-        "name": "Ubuntu",
-        "value": 69
+        "name": "Zabbix",
+        "value": 71
     },
     {
         "name": "XrayR",
@@ -100,6 +100,10 @@
         "value": 54
     },
     {
+        "name": "防火墙",
+        "value": 54
+    },
+    {
         "name": "CentOS",
         "value": 54
     },
@@ -114,10 +118,6 @@
     {
         "name": "正则表达式",
         "value": 52
-    },
-    {
-        "name": "防火墙",
-        "value": 51
     },
     {
         "name": "关键字",
