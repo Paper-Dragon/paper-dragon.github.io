@@ -72,11 +72,11 @@
         "value": 62
     },
     {
-        "name": "用户名",
-        "value": 61
+        "name": "Nginx",
+        "value": 62
     },
     {
-        "name": "Nginx",
+        "name": "用户名",
         "value": 61
     },
     {
@@ -177,7 +177,7 @@
     },
     {
         "name": "Host",
-        "value": 42
+        "value": 43
     },
     {
         "name": "FastAPI",
@@ -236,6 +236,10 @@
         "value": 36
     },
     {
+        "name": "Apache",
+        "value": 35
+    },
+    {
         "name": "源代码",
         "value": 34
     },
@@ -245,10 +249,6 @@
     },
     {
         "name": "Language",
-        "value": 33
-    },
-    {
-        "name": "Apache",
         "value": 33
     },
     {
@@ -1524,6 +1524,10 @@
         "value": 9
     },
     {
+        "name": "FastCGI",
+        "value": 9
+    },
+    {
         "name": "Updating",
         "value": 9
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "长时间",
-        "value": 8
-    },
-    {
-        "name": "Output",
         "value": 8
     }
 ]
