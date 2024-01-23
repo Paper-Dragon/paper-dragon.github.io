@@ -636,6 +636,10 @@
         "value": 17
     },
     {
+        "name": "旧版本",
+        "value": 17
+    },
+    {
         "name": "Block",
         "value": 17
     },
@@ -645,10 +649,6 @@
     },
     {
         "name": "Workstation",
-        "value": 17
-    },
-    {
-        "name": "旧版本",
         "value": 17
     },
     {
@@ -856,15 +856,15 @@
         "value": 14
     },
     {
-        "name": "消费者",
-        "value": 14
-    },
-    {
         "name": "Generating",
         "value": 14
     },
     {
         "name": "Context",
+        "value": 14
+    },
+    {
+        "name": "消费者",
         "value": 14
     },
     {
@@ -1064,6 +1064,14 @@
         "value": 12
     },
     {
+        "name": "Fast",
+        "value": 12
+    },
+    {
+        "name": "Rewrite",
+        "value": 12
+    },
+    {
         "name": "扩展性",
         "value": 12
     },
@@ -1076,15 +1084,7 @@
         "value": 12
     },
     {
-        "name": "Fast",
-        "value": 12
-    },
-    {
         "name": "随机化",
-        "value": 12
-    },
-    {
-        "name": "Rewrite",
         "value": 12
     },
     {
@@ -1208,15 +1208,15 @@
         "value": 11
     },
     {
+        "name": "Concurrency",
+        "value": 11
+    },
+    {
         "name": "生产者",
         "value": 11
     },
     {
         "name": "Corefile",
-        "value": 11
-    },
-    {
-        "name": "Concurrency",
         "value": 11
     },
     {
@@ -1380,11 +1380,15 @@
         "value": 10
     },
     {
-        "name": "Processing",
+        "name": "About",
         "value": 10
     },
     {
         "name": "Bytes",
+        "value": 10
+    },
+    {
+        "name": "Processing",
         "value": 10
     },
     {
@@ -1409,10 +1413,6 @@
     },
     {
         "name": "Shell",
-        "value": 10
-    },
-    {
-        "name": "About",
         "value": 10
     },
     {
