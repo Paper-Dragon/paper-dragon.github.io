@@ -68,7 +68,7 @@ export default {
     let html = `
       <!DOCTYPE html>
       <head>
-        <title>Example Pages Project</title>
+        <title>CloudNative DevOps Pages Project</title>
       </head>
       <body>
         <style>${style}</style>
