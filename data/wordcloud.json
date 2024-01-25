@@ -212,10 +212,6 @@
         "value": 38
     },
     {
-        "name": "PyQt5",
-        "value": 38
-    },
-    {
         "name": "Java",
         "value": 37
     },
@@ -226,10 +222,6 @@
     {
         "name": "磁盘空间",
         "value": 37
-    },
-    {
-        "name": "IPv6",
-        "value": 36
     },
     {
         "name": "CoreDNS",
@@ -282,10 +274,6 @@
     {
         "name": "Queens",
         "value": 29
-    },
-    {
-        "name": "IPv4",
-        "value": 28
     },
     {
         "name": "Designer",
@@ -845,10 +833,6 @@
     },
     {
         "name": "触发器",
-        "value": 14
-    },
-    {
-        "name": "CentOS7",
         "value": 14
     },
     {
@@ -1597,6 +1581,22 @@
     },
     {
         "name": "长时间",
+        "value": 8
+    },
+    {
+        "name": "Output",
+        "value": 8
+    },
+    {
+        "name": "变量名",
+        "value": 8
+    },
+    {
+        "name": "Test",
+        "value": 8
+    },
+    {
+        "name": "间隔时间",
         "value": 8
     }
 ]
