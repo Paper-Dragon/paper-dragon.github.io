@@ -372,6 +372,10 @@
         "value": 24
     },
     {
+        "name": "SakanaWidget",
+        "value": 24
+    },
+    {
         "name": "Total",
         "value": 23
     },
@@ -528,8 +532,16 @@
         "value": 19
     },
     {
+        "name": "Block",
+        "value": 19
+    },
+    {
         "name": "NamedManager",
         "value": 19
+    },
+    {
+        "name": "GitHub",
+        "value": 18
     },
     {
         "name": "Memory",
@@ -616,6 +628,10 @@
         "value": 17
     },
     {
+        "name": "Support",
+        "value": 17
+    },
+    {
         "name": "Networking",
         "value": 17
     },
@@ -625,10 +641,6 @@
     },
     {
         "name": "注册表",
-        "value": 17
-    },
-    {
-        "name": "Block",
         "value": 17
     },
     {
@@ -648,11 +660,11 @@
         "value": 17
     },
     {
-        "name": "GitHub",
+        "name": "复制到",
         "value": 16
     },
     {
-        "name": "复制到",
+        "name": "Note",
         "value": 16
     },
     {
@@ -673,10 +685,6 @@
     },
     {
         "name": "网络接口",
-        "value": 16
-    },
-    {
-        "name": "Support",
         "value": 16
     },
     {
@@ -741,10 +749,6 @@
     },
     {
         "name": "安装包",
-        "value": 15
-    },
-    {
-        "name": "Note",
         "value": 15
     },
     {
@@ -852,6 +856,10 @@
         "value": 14
     },
     {
+        "name": "静态方法",
+        "value": 14
+    },
+    {
         "name": "Container",
         "value": 14
     },
@@ -877,6 +885,10 @@
     },
     {
         "name": "资源配置",
+        "value": 14
+    },
+    {
+        "name": "Widget",
         "value": 14
     },
     {
@@ -988,6 +1000,10 @@
         "value": 12
     },
     {
+        "name": "Usage",
+        "value": 12
+    },
+    {
         "name": "端口号",
         "value": 12
     },
@@ -1064,10 +1080,6 @@
         "value": 12
     },
     {
-        "name": "静态方法",
-        "value": 12
-    },
-    {
         "name": "Azure",
         "value": 12
     },
@@ -1101,10 +1113,6 @@
     },
     {
         "name": "OpenSSH",
-        "value": 11
-    },
-    {
-        "name": "Usage",
         "value": 11
     },
     {
@@ -1416,10 +1424,6 @@
         "value": 10
     },
     {
-        "name": "Widget",
-        "value": 10
-    },
-    {
         "name": "账号密码",
         "value": 9
     },
@@ -1477,6 +1481,10 @@
     },
     {
         "name": "Avail",
+        "value": 9
+    },
+    {
+        "name": "First",
         "value": 9
     },
     {
@@ -1589,14 +1597,6 @@
     },
     {
         "name": "Author",
-        "value": 8
-    },
-    {
-        "name": "StrictHostKeyChecking",
-        "value": 8
-    },
-    {
-        "name": "Test",
         "value": 8
     }
 ]
