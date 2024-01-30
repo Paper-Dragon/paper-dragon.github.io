@@ -1,8 +1,0 @@
-import{_ as s}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as a,c as e,d as n}from"./app-rfTJ0BiX.js";const i={},t=n(`<h1 id="国内源" tabindex="-1"><a class="header-anchor" href="#国内源"><span>国内源</span></a></h1><div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre class="language-bash"><code>yum <span class="token parameter variable">-y</span> localinstall http://mirrors.ustc.edu.cn/mysql-repo/mysql57-community-release-el7.rpm
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="更改用户密码" tabindex="-1"><a class="header-anchor" href="#更改用户密码"><span>更改用户密码</span></a></h2><div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre class="language-bash"><code>
-ALTER <span class="token environment constant">USER</span> <span class="token string">&#39;jeffrey&#39;</span>@<span class="token string">&#39;localhost&#39;</span> IDENTIFIED BY <span class="token string">&#39;password&#39;</span><span class="token punctuation">;</span> //记得修改自己的账户
-flush privileges<span class="token punctuation">;</span> //修改成功后刷新权限
-quit<span class="token punctuation">;</span> //最后退出
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote><p>https://www.jianshu.com/p/b70a2cb5d4be</p></blockquote>`,5),l=[t];function c(r,d){return a(),e("div",null,l)}const u=s(i,[["render",c],["__file","国内源.html.vue"]]);export{u as default};
