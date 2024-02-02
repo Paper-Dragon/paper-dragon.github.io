@@ -32,12 +32,12 @@
         "value": 98
     },
     {
-        "name": "Kubernetes",
-        "value": 90
+        "name": "宿主机",
+        "value": 91
     },
     {
-        "name": "宿主机",
-        "value": 89
+        "name": "Kubernetes",
+        "value": 90
     },
     {
         "name": "数据包",
@@ -1456,6 +1456,10 @@
         "value": 9
     },
     {
+        "name": "Dockerfile",
+        "value": 9
+    },
+    {
         "name": "Kernel",
         "value": 9
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "长时间",
-        "value": 8
-    },
-    {
-        "name": "Output",
         "value": 8
     }
 ]
