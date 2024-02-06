@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 328
+        "value": 331
     },
     {
         "name": "文件系统",
@@ -9,7 +9,7 @@
     },
     {
         "name": "Docker",
-        "value": 185
+        "value": 196
     },
     {
         "name": "数据库",
@@ -40,20 +40,20 @@
         "value": 90
     },
     {
+        "name": "Windows",
+        "value": 87
+    },
+    {
         "name": "数据包",
         "value": 87
     },
     {
-        "name": "Windows",
-        "value": 83
+        "name": "Ubuntu",
+        "value": 76
     },
     {
         "name": "浏览器",
         "value": 76
-    },
-    {
-        "name": "Ubuntu",
-        "value": 75
     },
     {
         "name": "IP地址",
@@ -92,11 +92,11 @@
         "value": 57
     },
     {
-        "name": "环境变量",
-        "value": 54
+        "name": "CentOS",
+        "value": 56
     },
     {
-        "name": "CentOS",
+        "name": "环境变量",
         "value": 54
     },
     {
@@ -596,6 +596,10 @@
         "value": 18
     },
     {
+        "name": "Debian",
+        "value": 17
+    },
+    {
         "name": "分布式",
         "value": 17
     },
@@ -658,10 +662,6 @@
     {
         "name": "Elasticsearch",
         "value": 17
-    },
-    {
-        "name": "Debian",
-        "value": 16
     },
     {
         "name": "ConfigMap",
@@ -1028,6 +1028,10 @@
         "value": 12
     },
     {
+        "name": "进一步",
+        "value": 12
+    },
+    {
         "name": "扩展性",
         "value": 12
     },
@@ -1113,10 +1117,6 @@
     },
     {
         "name": "Metadata",
-        "value": 11
-    },
-    {
-        "name": "进一步",
         "value": 11
     },
     {
