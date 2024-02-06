@@ -48,11 +48,11 @@
         "value": 87
     },
     {
-        "name": "Ubuntu",
+        "name": "浏览器",
         "value": 76
     },
     {
-        "name": "浏览器",
+        "name": "Ubuntu",
         "value": 76
     },
     {
@@ -596,15 +596,15 @@
         "value": 18
     },
     {
-        "name": "Debian",
-        "value": 17
-    },
-    {
         "name": "分布式",
         "value": 17
     },
     {
         "name": "身份验证",
+        "value": 17
+    },
+    {
+        "name": "Debian",
         "value": 17
     },
     {
