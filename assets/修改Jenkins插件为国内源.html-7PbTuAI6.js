@@ -1,0 +1,4 @@
+import{_ as e}from"./plugin-vue_export-helper-x3n3nnut.js";import{o as n,c as t,d as s}from"./app-T8Dw5a2s.js";const a={},i=s(`<h1 id="修改jenkins插件为国内" tabindex="-1"><a class="header-anchor" href="#修改jenkins插件为国内"><span>修改Jenkins插件为国内</span></a></h1><p>首页 --&gt; configure --&gt; Manage Jenkins --&gt; Advanced --&gt; Update Site（页面最下方‘升级站点’）替换URL为 清华大学仓库地址：</p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>https://updates.jenkins.io/update-center.json
+改为
+https://mirror.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3),d=[i];function c(r,o){return n(),t("div",null,d)}const u=e(a,[["render",c],["__file","修改Jenkins插件为国内源.html.vue"]]);export{u as default};
