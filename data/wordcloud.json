@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 333
+        "value": 334
     },
     {
         "name": "文件系统",
@@ -348,6 +348,10 @@
         "value": 25
     },
     {
+        "name": "GitHub",
+        "value": 24
+    },
+    {
         "name": "第三方",
         "value": 24
     },
@@ -542,10 +546,6 @@
     {
         "name": "NamedManager",
         "value": 19
-    },
-    {
-        "name": "GitHub",
-        "value": 18
     },
     {
         "name": "Thread",
