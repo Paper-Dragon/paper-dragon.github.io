@@ -142,11 +142,18 @@ awk &#39;BEGIN{a=&quot;b&quot;;arr[0]=&quot;b&quot;;arr[&quot;b&quot;]=&quot;c&q
     <!-- sakana区块 -->
     <div id="sakana-widget" style="position: fixed; bottom: 64px; right: 45px; z-index: 999;"></div>
     <script>
-    function initSakanaWidget() {
-        new SakanaWidget().mount('#sakana-widget');
+    if (!(/Mobi|Android/i.test(navigator.userAgent))) {
+        function initSakanaWidget() {
+            new SakanaWidget().mount('#sakana-widget');
+        }
+
+        var script = document.createElement('script');
+        script.async = true;
+        script.onload = initSakanaWidget;
+        script.src = "/sakana-widget/lib/index.js";
+        document.body.appendChild(script);
     }
     </script>
-    <script async onload="initSakanaWidget()" src="/sakana-widget/lib/index.js"></script>
     <!-- end sakana区块 -->
   </body>
 </html>
