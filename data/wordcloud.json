@@ -21,7 +21,7 @@
     },
     {
         "name": "Python",
-        "value": 114
+        "value": 115
     },
     {
         "name": "虚拟机",
@@ -53,7 +53,7 @@
     },
     {
         "name": "浏览器",
-        "value": 76
+        "value": 77
     },
     {
         "name": "IP地址",
@@ -73,11 +73,15 @@
     },
     {
         "name": "二进制",
-        "value": 65
+        "value": 66
     },
     {
         "name": "文件名",
         "value": 62
+    },
+    {
+        "name": "命令行",
+        "value": 61
     },
     {
         "name": "用户名",
@@ -86,10 +90,6 @@
     {
         "name": "VMware",
         "value": 61
-    },
-    {
-        "name": "命令行",
-        "value": 58
     },
     {
         "name": "CentOS",
@@ -137,7 +137,7 @@
     },
     {
         "name": "服务端",
-        "value": 46
+        "value": 48
     },
     {
         "name": "JumpServer",
@@ -276,6 +276,10 @@
         "value": 29
     },
     {
+        "name": "多线程",
+        "value": 28
+    },
+    {
         "name": "Designer",
         "value": 28
     },
@@ -337,10 +341,6 @@
     },
     {
         "name": "应用程序",
-        "value": 25
-    },
-    {
-        "name": "多线程",
         "value": 25
     },
     {
@@ -992,6 +992,10 @@
         "value": 12
     },
     {
+        "name": "连接数",
+        "value": 12
+    },
+    {
         "name": "端口号",
         "value": 12
     },
@@ -1109,10 +1113,6 @@
     },
     {
         "name": "怎么办",
-        "value": 11
-    },
-    {
-        "name": "连接数",
         "value": 11
     },
     {
