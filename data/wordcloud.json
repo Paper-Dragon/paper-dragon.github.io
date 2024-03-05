@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 334
+        "value": 335
     },
     {
         "name": "文件系统",
@@ -49,7 +49,7 @@
     },
     {
         "name": "Ubuntu",
-        "value": 78
+        "value": 80
     },
     {
         "name": "浏览器",
@@ -276,6 +276,10 @@
         "value": 29
     },
     {
+        "name": "计算机",
+        "value": 28
+    },
+    {
         "name": "多线程",
         "value": 28
     },
@@ -288,16 +292,16 @@
         "value": 27
     },
     {
-        "name": "计算机",
-        "value": 27
-    },
-    {
         "name": "Time",
         "value": 27
     },
     {
         "name": "全局变量",
         "value": 27
+    },
+    {
+        "name": "应用程序",
+        "value": 26
     },
     {
         "name": "Tomcat",
@@ -337,10 +341,6 @@
     },
     {
         "name": "缓冲区",
-        "value": 25
-    },
-    {
-        "name": "应用程序",
         "value": 25
     },
     {
@@ -1432,6 +1432,10 @@
         "value": 9
     },
     {
+        "name": "持久性",
+        "value": 9
+    },
+    {
         "name": "Using",
         "value": 9
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "Kibana",
-        "value": 9
-    },
-    {
-        "name": "Sentinel",
         "value": 9
     }
 ]
