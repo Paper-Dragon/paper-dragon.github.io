@@ -304,11 +304,11 @@
         "value": 26
     },
     {
-        "name": "Request",
+        "name": "发行版",
         "value": 26
     },
     {
-        "name": "发行版",
+        "name": "Request",
         "value": 26
     },
     {
@@ -752,15 +752,15 @@
         "value": 15
     },
     {
-        "name": "拷贝到",
-        "value": 15
-    },
-    {
         "name": "Starting",
         "value": 15
     },
     {
         "name": "安装包",
+        "value": 15
+    },
+    {
+        "name": "拷贝到",
         "value": 15
     },
     {
@@ -828,15 +828,15 @@
         "value": 14
     },
     {
+        "name": "Generating",
+        "value": 14
+    },
+    {
         "name": "Port",
         "value": 14
     },
     {
         "name": "资源配置",
-        "value": 14
-    },
-    {
-        "name": "Generating",
         "value": 14
     },
     {
@@ -996,15 +996,15 @@
         "value": 12
     },
     {
+        "name": "替换成",
+        "value": 12
+    },
+    {
         "name": "Metadata",
         "value": 12
     },
     {
         "name": "Check",
-        "value": 12
-    },
-    {
-        "name": "替换成",
         "value": 12
     },
     {
