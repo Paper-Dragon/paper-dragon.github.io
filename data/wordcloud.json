@@ -1,11 +1,11 @@
 [
     {
         "name": "Linux",
-        "value": 335
+        "value": 347
     },
     {
         "name": "文件系统",
-        "value": 210
+        "value": 222
     },
     {
         "name": "Docker",
@@ -140,11 +140,11 @@
         "value": 48
     },
     {
-        "name": "NetworkPolicy",
-        "value": 45
+        "name": "JumpServer",
+        "value": 46
     },
     {
-        "name": "JumpServer",
+        "name": "NetworkPolicy",
         "value": 45
     },
     {
@@ -177,6 +177,10 @@
     },
     {
         "name": "寄存器",
+        "value": 43
+    },
+    {
+        "name": "Btrfs",
         "value": 43
     },
     {
@@ -229,7 +233,7 @@
     },
     {
         "name": "CoreDNS",
-        "value": 36
+        "value": 37
     },
     {
         "name": "Desktop",
@@ -261,10 +265,6 @@
     },
     {
         "name": "Tomcat",
-        "value": 31
-    },
-    {
-        "name": "Btrfs",
         "value": 31
     },
     {
