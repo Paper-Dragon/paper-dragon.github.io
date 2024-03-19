@@ -1176,6 +1176,10 @@
         "value": 11
     },
     {
+        "name": "MinIO",
+        "value": 11
+    },
+    {
         "name": "Verifying",
         "value": 11
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "元字符",
-        "value": 9
-    },
-    {
-        "name": "Avail",
         "value": 9
     }
 ]
