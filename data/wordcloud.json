@@ -41,7 +41,7 @@
     },
     {
         "name": "Windows",
-        "value": 87
+        "value": 88
     },
     {
         "name": "数据包",
@@ -264,6 +264,10 @@
         "value": 31
     },
     {
+        "name": "Btrfs",
+        "value": 31
+    },
+    {
         "name": "大小写",
         "value": 30
     },
@@ -273,10 +277,6 @@
     },
     {
         "name": "重定向",
-        "value": 29
-    },
-    {
-        "name": "Btrfs",
         "value": 29
     },
     {
@@ -1076,6 +1076,10 @@
         "value": 12
     },
     {
+        "name": "Shell",
+        "value": 12
+    },
+    {
         "name": "十进制",
         "value": 12
     },
@@ -1217,10 +1221,6 @@
     },
     {
         "name": "大括号",
-        "value": 11
-    },
-    {
-        "name": "Shell",
         "value": 11
     },
     {
