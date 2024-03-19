@@ -260,6 +260,10 @@
         "value": 32
     },
     {
+        "name": "Tomcat",
+        "value": 31
+    },
+    {
         "name": "大小写",
         "value": 30
     },
@@ -301,10 +305,6 @@
     },
     {
         "name": "应用程序",
-        "value": 26
-    },
-    {
-        "name": "Tomcat",
         "value": 26
     },
     {
@@ -1120,6 +1120,10 @@
         "value": 11
     },
     {
+        "name": "企业级",
+        "value": 11
+    },
+    {
         "name": "生产者",
         "value": 11
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "Avail",
-        "value": 9
-    },
-    {
-        "name": "Digest",
         "value": 9
     }
 ]
