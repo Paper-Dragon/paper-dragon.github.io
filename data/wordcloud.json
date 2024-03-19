@@ -9,7 +9,7 @@
     },
     {
         "name": "Docker",
-        "value": 196
+        "value": 198
     },
     {
         "name": "数据库",
@@ -52,8 +52,16 @@
         "value": 80
     },
     {
+        "name": "VMware",
+        "value": 78
+    },
+    {
         "name": "浏览器",
         "value": 77
+    },
+    {
+        "name": "防火墙",
+        "value": 74
     },
     {
         "name": "二进制",
@@ -88,19 +96,11 @@
         "value": 61
     },
     {
-        "name": "VMware",
-        "value": 61
-    },
-    {
         "name": "CentOS",
         "value": 56
     },
     {
         "name": "环境变量",
-        "value": 54
-    },
-    {
-        "name": "防火墙",
         "value": 54
     },
     {
@@ -396,11 +396,11 @@
         "value": 23
     },
     {
-        "name": "提供商",
+        "name": "V2ray",
         "value": 23
     },
     {
-        "name": "V2ray",
+        "name": "提供商",
         "value": 23
     },
     {
@@ -457,6 +457,10 @@
     },
     {
         "name": "Content",
+        "value": 21
+    },
+    {
+        "name": "注册表",
         "value": 21
     },
     {
@@ -641,10 +645,6 @@
     },
     {
         "name": "身份验证",
-        "value": 17
-    },
-    {
-        "name": "注册表",
         "value": 17
     },
     {
@@ -1184,10 +1184,6 @@
         "value": 11
     },
     {
-        "name": "互联网",
-        "value": 11
-    },
-    {
         "name": "Vless",
         "value": 11
     },
@@ -1197,6 +1193,10 @@
     },
     {
         "name": "CertMode",
+        "value": 11
+    },
+    {
+        "name": "互联网",
         "value": 11
     },
     {
@@ -1340,11 +1340,11 @@
         "value": 10
     },
     {
-        "name": "网络连接",
+        "name": "Send",
         "value": 10
     },
     {
-        "name": "Send",
+        "name": "网络连接",
         "value": 10
     },
     {
@@ -1476,6 +1476,10 @@
         "value": 9
     },
     {
+        "name": "Traefik",
+        "value": 9
+    },
+    {
         "name": "Kibana",
         "value": 9
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "Digest",
-        "value": 9
-    },
-    {
-        "name": "Lion",
         "value": 9
     }
 ]
