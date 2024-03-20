@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 347
+        "value": 319
     },
     {
         "name": "文件系统",
@@ -24,10 +24,6 @@
         "value": 115
     },
     {
-        "name": "虚拟机",
-        "value": 99
-    },
-    {
         "name": "OpenStack",
         "value": 98
     },
@@ -48,14 +44,6 @@
         "value": 87
     },
     {
-        "name": "Ubuntu",
-        "value": 80
-    },
-    {
-        "name": "VMware",
-        "value": 78
-    },
-    {
         "name": "浏览器",
         "value": 77
     },
@@ -70,6 +58,10 @@
     {
         "name": "IP地址",
         "value": 74
+    },
+    {
+        "name": "虚拟机",
+        "value": 71
     },
     {
         "name": "Nginx",
@@ -124,8 +116,16 @@
         "value": 52
     },
     {
+        "name": "Ubuntu",
+        "value": 51
+    },
+    {
         "name": "Ethernet",
         "value": 51
+    },
+    {
+        "name": "VMware",
+        "value": 50
     },
     {
         "name": "GitLab",
