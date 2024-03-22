@@ -284,10 +284,6 @@
         "value": 29
     },
     {
-        "name": "Designer",
-        "value": 28
-    },
-    {
         "name": "多线程",
         "value": 28
     },
@@ -481,6 +477,10 @@
     },
     {
         "name": "MyWindow",
+        "value": 20
+    },
+    {
+        "name": "QtDesigner",
         "value": 20
     },
     {
