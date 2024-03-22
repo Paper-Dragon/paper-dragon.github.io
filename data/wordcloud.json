@@ -13,7 +13,7 @@
     },
     {
         "name": "数据库",
-        "value": 145
+        "value": 144
     },
     {
         "name": "操作系统",
@@ -60,11 +60,11 @@
         "value": 74
     },
     {
-        "name": "虚拟机",
-        "value": 71
+        "name": "Nginx",
+        "value": 74
     },
     {
-        "name": "Nginx",
+        "name": "虚拟机",
         "value": 71
     },
     {
