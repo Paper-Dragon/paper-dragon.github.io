@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 321
+        "value": 322
     },
     {
         "name": "文件系统",
@@ -1556,6 +1556,10 @@
         "value": 9
     },
     {
+        "name": "重新启动",
+        "value": 9
+    },
+    {
         "name": "Dialogue",
         "value": 9
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "Kubelet",
-        "value": 9
-    },
-    {
-        "name": "Maven",
         "value": 9
     }
 ]
