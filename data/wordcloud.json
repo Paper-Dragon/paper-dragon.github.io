@@ -5,7 +5,7 @@
     },
     {
         "name": "文件系统",
-        "value": 223
+        "value": 224
     },
     {
         "name": "Docker",
@@ -108,16 +108,16 @@
         "value": 52
     },
     {
-        "name": "Ubuntu",
-        "value": 52
-    },
-    {
         "name": "CentOS",
         "value": 52
     },
     {
         "name": "关键字",
         "value": 52
+    },
+    {
+        "name": "Ubuntu",
+        "value": 51
     },
     {
         "name": "Ethernet",
@@ -964,6 +964,10 @@
         "value": 13
     },
     {
+        "name": "Shell",
+        "value": 13
+    },
+    {
         "name": "Enter",
         "value": 13
     },
@@ -1085,10 +1089,6 @@
     },
     {
         "name": "虚拟地址",
-        "value": 12
-    },
-    {
-        "name": "Shell",
         "value": 12
     },
     {
