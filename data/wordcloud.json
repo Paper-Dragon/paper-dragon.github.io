@@ -108,16 +108,16 @@
         "value": 52
     },
     {
+        "name": "Ubuntu",
+        "value": 52
+    },
+    {
         "name": "CentOS",
         "value": 52
     },
     {
         "name": "关键字",
         "value": 52
-    },
-    {
-        "name": "Ubuntu",
-        "value": 51
     },
     {
         "name": "Ethernet",
