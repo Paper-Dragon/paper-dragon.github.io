@@ -1,0 +1,1 @@
+import{_ as o,a8 as n}from"./app-DgUbUn4g.js";const i=async()=>{try{const{pageviewCount:e}=await o(()=>import("./app-DgUbUn4g.js").then(r=>r.ah),[]),t=n();return e({serverURL:t.serverURL})}catch{console.error("@waline/client is not installed!")}};export{i as updatePageview};
