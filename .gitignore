@@ -51,6 +51,7 @@ build/Release
 # Dependency directories
 
 node_modules/
+
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -170,3 +171,10 @@ dist
 
 .dev.vars
 .wrangler/
+src/.vuepress/.cache/
+src/.vuepress/.temp/
+src/.vuepress/dist/
+.vscode
+.idea
+.DS_Store
+
