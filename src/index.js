@@ -10,6 +10,12 @@
  * Maintainer Description: 必须添加环境变量 API_TOKEN
  */
 
+// const deploymentsEndpoint =
+//   "https://api.cloudflare.com/client/v4/accounts/5e5ac3054112f395febf4678f54f8278/pages/projects/cloudnative/deployments";
+// const projectEndpoint =
+//   "https://api.cloudflare.com/client/v4/accounts/5e5ac3054112f395febf4678f54f8278/pages/projects/cloudnative";
+
+
 const deploymentsEndpoint =
   "https://api.cloudflare.com/client/v4/accounts/5e5ac3054112f395febf4678f54f8278/pages/projects/cloudnative/deployments";
 const projectEndpoint =
