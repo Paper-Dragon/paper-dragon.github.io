@@ -1,1 +1,0 @@
-import{_ as o,a8 as n}from"./app-iMsxVdw9.js";const i=async()=>{try{const{pageviewCount:e}=await o(()=>import("./app-iMsxVdw9.js").then(r=>r.ah),[]),t=n();return e({serverURL:t.serverURL})}catch{console.error("@waline/client is not installed!")}};export{i as updatePageview};
