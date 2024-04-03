@@ -348,10 +348,6 @@
         "value": 25
     },
     {
-        "name": "GitHub",
-        "value": 24
-    },
-    {
         "name": "实际上",
         "value": 24
     },
@@ -382,6 +378,10 @@
     {
         "name": "SakanaWidget",
         "value": 24
+    },
+    {
+        "name": "GitHub",
+        "value": 23
     },
     {
         "name": "Core",

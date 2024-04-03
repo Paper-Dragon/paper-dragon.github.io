@@ -1,1 +1,0 @@
-import{_ as o,a8 as n}from"./app-DtoTw-ZK.js";const i=async()=>{try{const{pageviewCount:e}=await o(()=>import("./app-DtoTw-ZK.js").then(r=>r.ah),[]),t=n();return e({serverURL:t.serverURL})}catch{console.error("@waline/client is not installed!")}};export{i as updatePageview};
