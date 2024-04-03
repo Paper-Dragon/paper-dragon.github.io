@@ -9,7 +9,7 @@
     },
     {
         "name": "Docker",
-        "value": 208
+        "value": 210
     },
     {
         "name": "数据库",
@@ -37,7 +37,7 @@
     },
     {
         "name": "Windows",
-        "value": 88
+        "value": 90
     },
     {
         "name": "数据包",
@@ -96,6 +96,10 @@
         "value": 54
     },
     {
+        "name": "Ubuntu",
+        "value": 53
+    },
+    {
         "name": "MySQL",
         "value": 53
     },
@@ -105,10 +109,6 @@
     },
     {
         "name": "文件夹",
-        "value": 52
-    },
-    {
-        "name": "Ubuntu",
         "value": 52
     },
     {
@@ -608,6 +608,10 @@
         "value": 18
     },
     {
+        "name": "开发者",
+        "value": 17
+    },
+    {
         "name": "Debian",
         "value": 17
     },
@@ -734,10 +738,6 @@
     {
         "name": "子系统",
         "value": 16
-    },
-    {
-        "name": "开发者",
-        "value": 15
     },
     {
         "name": "安装包",
@@ -1124,6 +1124,10 @@
         "value": 11
     },
     {
+        "name": "Runtime",
+        "value": 11
+    },
+    {
         "name": "企业级",
         "value": 11
     },
@@ -1441,10 +1445,6 @@
     },
     {
         "name": "First",
-        "value": 9
-    },
-    {
-        "name": "Runtime",
         "value": 9
     },
     {
