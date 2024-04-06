@@ -21,7 +21,7 @@
     },
     {
         "name": "Python",
-        "value": 115
+        "value": 119
     },
     {
         "name": "OpenStack",
@@ -740,6 +740,10 @@
         "value": 16
     },
     {
+        "name": "C语言",
+        "value": 15
+    },
+    {
         "name": "安装包",
         "value": 15
     },
@@ -805,10 +809,6 @@
     },
     {
         "name": "QLabel",
-        "value": 14
-    },
-    {
-        "name": "C语言",
         "value": 14
     },
     {
