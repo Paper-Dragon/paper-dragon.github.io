@@ -21,7 +21,7 @@
     },
     {
         "name": "Python",
-        "value": 115
+        "value": 119
     },
     {
         "name": "OpenStack",
@@ -740,6 +740,10 @@
         "value": 16
     },
     {
+        "name": "C语言",
+        "value": 15
+    },
+    {
         "name": "转发给",
         "value": 15
     },
@@ -802,10 +806,6 @@
     {
         "name": "City",
         "value": 15
-    },
-    {
-        "name": "C语言",
-        "value": 14
     },
     {
         "name": "Widget",

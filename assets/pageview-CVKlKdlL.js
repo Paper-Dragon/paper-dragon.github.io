@@ -1,1 +1,0 @@
-import{a8 as o,_ as n}from"./app-Bd8L-r-x.js";const i=async()=>{const t=o();try{const{pageviewCount:e}=await n(()=>import("./app-Bd8L-r-x.js").then(r=>r.ah),[]);return e({serverURL:t.serverURL})}catch{console.error("@waline/client is not installed!")}};export{i as updatePageview};
