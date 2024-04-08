@@ -216,6 +216,10 @@
         "value": 38
     },
     {
+        "name": "Java",
+        "value": 38
+    },
+    {
         "name": "磁盘空间",
         "value": 37
     },
@@ -225,10 +229,6 @@
     },
     {
         "name": "CoreDNS",
-        "value": 37
-    },
-    {
-        "name": "Java",
         "value": 37
     },
     {
