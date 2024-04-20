@@ -1128,6 +1128,10 @@
         "value": 11
     },
     {
+        "name": "Interface",
+        "value": 11
+    },
+    {
         "name": "Gateway",
         "value": 11
     },
@@ -1281,10 +1285,6 @@
     },
     {
         "name": "安全性",
-        "value": 10
-    },
-    {
-        "name": "Interface",
         "value": 10
     },
     {
