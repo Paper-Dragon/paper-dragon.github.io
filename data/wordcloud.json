@@ -21,7 +21,7 @@
     },
     {
         "name": "Python",
-        "value": 121
+        "value": 120
     },
     {
         "name": "OpenStack",
@@ -265,7 +265,7 @@
     },
     {
         "name": "数据结构",
-        "value": 32
+        "value": 31
     },
     {
         "name": "Tomcat",
@@ -552,10 +552,6 @@
         "value": 19
     },
     {
-        "name": "复杂度",
-        "value": 19
-    },
-    {
         "name": "域名解析",
         "value": 19
     },
@@ -589,6 +585,10 @@
     },
     {
         "name": "可执行文件",
+        "value": 18
+    },
+    {
+        "name": "复杂度",
         "value": 18
     },
     {
