@@ -29,7 +29,7 @@
     },
     {
         "name": "Kubernetes",
-        "value": 97
+        "value": 98
     },
     {
         "name": "宿主机",
@@ -156,6 +156,10 @@
         "value": 44
     },
     {
+        "name": "Service",
+        "value": 44
+    },
+    {
         "name": "System",
         "value": 44
     },
@@ -182,10 +186,6 @@
     {
         "name": "Btrfs",
         "value": 43
-    },
-    {
-        "name": "Service",
-        "value": 41
     },
     {
         "name": "虚拟化",
@@ -592,6 +592,10 @@
         "value": 18
     },
     {
+        "name": "Session",
+        "value": 18
+    },
+    {
         "name": "Connection",
         "value": 18
     },
@@ -669,10 +673,6 @@
     },
     {
         "name": "子目录",
-        "value": 17
-    },
-    {
-        "name": "Session",
         "value": 17
     },
     {
