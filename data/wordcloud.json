@@ -380,10 +380,6 @@
         "value": 24
     },
     {
-        "name": "GitHub",
-        "value": 23
-    },
-    {
         "name": "Password",
         "value": 23
     },
@@ -414,6 +410,14 @@
     {
         "name": "V2ray",
         "value": 23
+    },
+    {
+        "name": "Github",
+        "value": 22
+    },
+    {
+        "name": "GitHub",
+        "value": 22
     },
     {
         "name": "为什么",
@@ -477,10 +481,6 @@
     },
     {
         "name": "意味着",
-        "value": 21
-    },
-    {
-        "name": "Github",
         "value": 21
     },
     {
@@ -1116,6 +1116,14 @@
         "value": 12
     },
     {
+        "name": "Paper",
+        "value": 11
+    },
+    {
+        "name": "Dragon",
+        "value": 11
+    },
+    {
         "name": "Available",
         "value": 11
     },
@@ -1278,14 +1286,6 @@
     {
         "name": "CertMode",
         "value": 11
-    },
-    {
-        "name": "Paper",
-        "value": 10
-    },
-    {
-        "name": "Dragon",
-        "value": 10
     },
     {
         "name": "解决办法",
