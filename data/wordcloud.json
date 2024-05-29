@@ -89,7 +89,7 @@
     },
     {
         "name": "Ubuntu",
-        "value": 54
+        "value": 55
     },
     {
         "name": "分隔符",
@@ -148,6 +148,10 @@
         "value": 46
     },
     {
+        "name": "OpenResty",
+        "value": 46
+    },
+    {
         "name": "NetworkPolicy",
         "value": 45
     },
@@ -165,10 +169,6 @@
     },
     {
         "name": "Redis",
-        "value": 44
-    },
-    {
-        "name": "OpenResty",
         "value": 44
     },
     {
