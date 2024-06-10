@@ -45,7 +45,7 @@
     },
     {
         "name": "浏览器",
-        "value": 78
+        "value": 80
     },
     {
         "name": "IP地址",
@@ -100,16 +100,16 @@
         "value": 54
     },
     {
+        "name": "CentOS",
+        "value": 53
+    },
+    {
         "name": "正则表达式",
         "value": 53
     },
     {
         "name": "MySQL",
         "value": 53
-    },
-    {
-        "name": "CentOS",
-        "value": 52
     },
     {
         "name": "文件夹",
@@ -141,7 +141,7 @@
     },
     {
         "name": "根目录",
-        "value": 46
+        "value": 47
     },
     {
         "name": "JumpServer",
@@ -212,6 +212,10 @@
         "value": 39
     },
     {
+        "name": "源代码",
+        "value": 38
+    },
+    {
         "name": "Java",
         "value": 38
     },
@@ -221,10 +225,6 @@
     },
     {
         "name": "磁盘空间",
-        "value": 37
-    },
-    {
-        "name": "源代码",
         "value": 37
     },
     {
@@ -352,6 +352,10 @@
         "value": 25
     },
     {
+        "name": "GitHub",
+        "value": 24
+    },
+    {
         "name": "Unix",
         "value": 24
     },
@@ -417,10 +421,6 @@
     },
     {
         "name": "Github",
-        "value": 22
-    },
-    {
-        "name": "GitHub",
         "value": 22
     },
     {
@@ -624,6 +624,10 @@
         "value": 18
     },
     {
+        "name": "复制到",
+        "value": 17
+    },
+    {
         "name": "Debian",
         "value": 17
     },
@@ -709,10 +713,6 @@
     },
     {
         "name": "Size",
-        "value": 16
-    },
-    {
-        "name": "复制到",
         "value": 16
     },
     {
@@ -920,6 +920,14 @@
         "value": 14
     },
     {
+        "name": "Paper",
+        "value": 13
+    },
+    {
+        "name": "Dragon",
+        "value": 13
+    },
+    {
         "name": "生命周期",
         "value": 13
     },
@@ -994,14 +1002,6 @@
     {
         "name": "制表符",
         "value": 13
-    },
-    {
-        "name": "Paper",
-        "value": 12
-    },
-    {
-        "name": "Dragon",
-        "value": 12
     },
     {
         "name": "进一步",
@@ -1129,6 +1129,14 @@
     },
     {
         "name": "Allow",
+        "value": 11
+    },
+    {
+        "name": "安全性",
+        "value": 11
+    },
+    {
+        "name": "特殊字符",
         "value": 11
     },
     {
@@ -1300,10 +1308,6 @@
         "value": 10
     },
     {
-        "name": "特殊字符",
-        "value": 10
-    },
-    {
         "name": "Error",
         "value": 10
     },
@@ -1353,10 +1357,6 @@
     },
     {
         "name": "一致性",
-        "value": 10
-    },
-    {
-        "name": "安全性",
         "value": 10
     },
     {
@@ -1453,6 +1453,10 @@
     },
     {
         "name": "First",
+        "value": 9
+    },
+    {
+        "name": "Test",
         "value": 9
     },
     {
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "Kibana",
-        "value": 9
-    },
-    {
-        "name": "Destination",
         "value": 9
     }
 ]
