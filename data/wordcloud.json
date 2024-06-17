@@ -24,11 +24,11 @@
         "value": 121
     },
     {
-        "name": "OpenStack",
-        "value": 98
+        "name": "Kubernetes",
+        "value": 99
     },
     {
-        "name": "Kubernetes",
+        "name": "OpenStack",
         "value": 98
     },
     {
