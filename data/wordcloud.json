@@ -52,15 +52,15 @@
         "value": 75
     },
     {
+        "name": "Nginx",
+        "value": 75
+    },
+    {
         "name": "IP地址",
         "value": 75
     },
     {
         "name": "二进制",
-        "value": 74
-    },
-    {
-        "name": "Nginx",
         "value": 74
     },
     {
