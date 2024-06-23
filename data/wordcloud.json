@@ -48,11 +48,11 @@
         "value": 80
     },
     {
-        "name": "防火墙",
-        "value": 75
+        "name": "Nginx",
+        "value": 76
     },
     {
-        "name": "Nginx",
+        "name": "防火墙",
         "value": 75
     },
     {
@@ -140,12 +140,12 @@
         "value": 48
     },
     {
-        "name": "根目录",
-        "value": 47
+        "name": "OpenResty",
+        "value": 48
     },
     {
-        "name": "OpenResty",
-        "value": 46
+        "name": "根目录",
+        "value": 47
     },
     {
         "name": "JumpServer",
