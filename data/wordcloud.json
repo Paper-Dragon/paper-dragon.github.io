@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 323
+        "value": 332
     },
     {
         "name": "文件系统",
@@ -92,16 +92,16 @@
         "value": 56
     },
     {
+        "name": "CentOS",
+        "value": 55
+    },
+    {
         "name": "环境变量",
         "value": 54
     },
     {
         "name": "分隔符",
         "value": 54
-    },
-    {
-        "name": "CentOS",
-        "value": 53
     },
     {
         "name": "MySQL",
@@ -152,11 +152,15 @@
         "value": 46
     },
     {
+        "name": "System",
+        "value": 45
+    },
+    {
         "name": "NetworkPolicy",
         "value": 45
     },
     {
-        "name": "System",
+        "name": "Host",
         "value": 44
     },
     {
@@ -170,10 +174,6 @@
     {
         "name": "QWidget",
         "value": 44
-    },
-    {
-        "name": "Host",
-        "value": 43
     },
     {
         "name": "编译器",
@@ -364,15 +364,15 @@
         "value": 24
     },
     {
-        "name": "第三方",
-        "value": 24
-    },
-    {
         "name": "Network",
         "value": 24
     },
     {
         "name": "Total",
+        "value": 24
+    },
+    {
+        "name": "第三方",
         "value": 24
     },
     {
@@ -389,6 +389,14 @@
     },
     {
         "name": "BTree",
+        "value": 23
+    },
+    {
+        "name": "Install",
+        "value": 23
+    },
+    {
+        "name": "普通用户",
         "value": 23
     },
     {
@@ -436,10 +444,6 @@
         "value": 22
     },
     {
-        "name": "Install",
-        "value": 22
-    },
-    {
         "name": "Proxy",
         "value": 22
     },
@@ -448,15 +452,15 @@
         "value": 22
     },
     {
-        "name": "普通用户",
-        "value": 22
-    },
-    {
         "name": "QPushButton",
         "value": 22
     },
     {
         "name": "意味着",
+        "value": 21
+    },
+    {
+        "name": "执行命令",
         "value": 21
     },
     {
@@ -501,10 +505,6 @@
     },
     {
         "name": "计数器",
-        "value": 20
-    },
-    {
-        "name": "执行命令",
         "value": 20
     },
     {
@@ -648,11 +648,19 @@
         "value": 17
     },
     {
+        "name": "Size",
+        "value": 17
+    },
+    {
         "name": "Tree",
         "value": 17
     },
     {
         "name": "子目录",
+        "value": 17
+    },
+    {
+        "name": "Base",
         "value": 17
     },
     {
@@ -704,10 +712,6 @@
         "value": 16
     },
     {
-        "name": "Size",
-        "value": 16
-    },
-    {
         "name": "Used",
         "value": 16
     },
@@ -717,10 +721,6 @@
     },
     {
         "name": "Unit",
-        "value": 16
-    },
-    {
-        "name": "Base",
         "value": 16
     },
     {
@@ -840,6 +840,10 @@
         "value": 14
     },
     {
+        "name": "Port",
+        "value": 14
+    },
+    {
         "name": "ExecStart",
         "value": 14
     },
@@ -873,10 +877,6 @@
     },
     {
         "name": "Generating",
-        "value": 14
-    },
-    {
-        "name": "Port",
         "value": 14
     },
     {
@@ -928,10 +928,6 @@
         "value": 13
     },
     {
-        "name": "生命周期",
-        "value": 13
-    },
-    {
         "name": "主目录",
         "value": 13
     },
@@ -949,6 +945,18 @@
     },
     {
         "name": "Hello",
+        "value": 13
+    },
+    {
+        "name": "Description",
+        "value": 13
+    },
+    {
+        "name": "Date",
+        "value": 13
+    },
+    {
+        "name": "生命周期",
         "value": 13
     },
     {
@@ -1028,6 +1036,10 @@
         "value": 12
     },
     {
+        "name": "Documentation",
+        "value": 12
+    },
+    {
         "name": "Process",
         "value": 12
     },
@@ -1045,10 +1057,6 @@
     },
     {
         "name": "高性能",
-        "value": 12
-    },
-    {
-        "name": "Description",
         "value": 12
     },
     {
@@ -1085,10 +1093,6 @@
     },
     {
         "name": "Systemd",
-        "value": 12
-    },
-    {
-        "name": "Documentation",
         "value": 12
     },
     {
@@ -1168,7 +1172,7 @@
         "value": 11
     },
     {
-        "name": "Date",
+        "name": "OpenSSH",
         "value": 11
     },
     {
@@ -1197,10 +1201,6 @@
     },
     {
         "name": "MinIO",
-        "value": 11
-    },
-    {
-        "name": "OpenSSH",
         "value": 11
     },
     {
@@ -1296,10 +1296,6 @@
         "value": 11
     },
     {
-        "name": "老父亲",
-        "value": 10
-    },
-    {
         "name": "Bytes",
         "value": 10
     },
@@ -1329,6 +1325,10 @@
     },
     {
         "name": "Writing",
+        "value": 10
+    },
+    {
+        "name": "老父亲",
         "value": 10
     },
     {
@@ -1480,6 +1480,14 @@
         "value": 9
     },
     {
+        "name": "Authentication",
+        "value": 9
+    },
+    {
+        "name": "压缩包",
+        "value": 9
+    },
+    {
         "name": "Using",
         "value": 9
     },
@@ -1589,14 +1597,6 @@
     },
     {
         "name": "持久性",
-        "value": 9
-    },
-    {
-        "name": "Kibana",
-        "value": 9
-    },
-    {
-        "name": "定界符",
         "value": 9
     }
 ]
