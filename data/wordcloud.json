@@ -88,15 +88,19 @@
         "value": 61
     },
     {
+        "name": "CentOS",
+        "value": 58
+    },
+    {
         "name": "Ubuntu",
         "value": 56
     },
     {
-        "name": "CentOS",
-        "value": 56
+        "name": "环境变量",
+        "value": 54
     },
     {
-        "name": "环境变量",
+        "name": "文件夹",
         "value": 54
     },
     {
@@ -110,10 +114,6 @@
     {
         "name": "正则表达式",
         "value": 53
-    },
-    {
-        "name": "文件夹",
-        "value": 52
     },
     {
         "name": "关键字",
@@ -456,6 +456,10 @@
         "value": 22
     },
     {
+        "name": "详细信息",
+        "value": 21
+    },
+    {
         "name": "意味着",
         "value": 21
     },
@@ -497,10 +501,6 @@
     },
     {
         "name": "Session",
-        "value": 20
-    },
-    {
-        "name": "详细信息",
         "value": 20
     },
     {
@@ -941,6 +941,10 @@
     },
     {
         "name": "主目录",
+        "value": 13
+    },
+    {
+        "name": "解压缩",
         "value": 13
     },
     {
@@ -1469,10 +1473,6 @@
     },
     {
         "name": "MobaXterm",
-        "value": 9
-    },
-    {
-        "name": "解压缩",
         "value": 9
     },
     {
