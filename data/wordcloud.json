@@ -17,7 +17,7 @@
     },
     {
         "name": "操作系统",
-        "value": 143
+        "value": 144
     },
     {
         "name": "Python",
@@ -93,7 +93,7 @@
     },
     {
         "name": "CentOS",
-        "value": 55
+        "value": 56
     },
     {
         "name": "环境变量",
@@ -576,6 +576,10 @@
         "value": 18
     },
     {
+        "name": "复制到",
+        "value": 18
+    },
+    {
         "name": "Thread",
         "value": 18
     },
@@ -629,10 +633,6 @@
     },
     {
         "name": "Debian",
-        "value": 17
-    },
-    {
-        "name": "复制到",
         "value": 17
     },
     {
