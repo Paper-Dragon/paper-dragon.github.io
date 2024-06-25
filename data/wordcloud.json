@@ -245,7 +245,7 @@
     },
     {
         "name": "Markdown",
-        "value": 33
+        "value": 34
     },
     {
         "name": "Language",
@@ -508,6 +508,10 @@
         "value": 20
     },
     {
+        "name": "西里尔",
+        "value": 20
+    },
+    {
         "name": "自动化",
         "value": 20
     },
@@ -541,6 +545,10 @@
     },
     {
         "name": "Block",
+        "value": 19
+    },
+    {
+        "name": "拉丁字母",
         "value": 19
     },
     {
@@ -721,6 +729,10 @@
     },
     {
         "name": "Unit",
+        "value": 16
+    },
+    {
+        "name": "Shell",
         "value": 16
     },
     {
@@ -988,10 +1000,6 @@
         "value": 13
     },
     {
-        "name": "Shell",
-        "value": 13
-    },
-    {
         "name": "Enter",
         "value": 13
     },
@@ -1013,6 +1021,10 @@
     },
     {
         "name": "Usage",
+        "value": 12
+    },
+    {
+        "name": "特殊字符",
         "value": 12
     },
     {
@@ -1141,10 +1153,6 @@
     },
     {
         "name": "安全性",
-        "value": 11
-    },
-    {
-        "name": "特殊字符",
         "value": 11
     },
     {
@@ -1325,6 +1333,10 @@
     },
     {
         "name": "Writing",
+        "value": 10
+    },
+    {
+        "name": "希腊字母",
         "value": 10
     },
     {
@@ -1585,18 +1597,6 @@
     },
     {
         "name": "重新启动",
-        "value": 9
-    },
-    {
-        "name": "Sentinel",
-        "value": 9
-    },
-    {
-        "name": "Your",
-        "value": 9
-    },
-    {
-        "name": "持久性",
         "value": 9
     }
 ]
