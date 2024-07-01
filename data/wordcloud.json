@@ -120,6 +120,10 @@
         "value": 52
     },
     {
+        "name": "Prometheus",
+        "value": 51
+    },
+    {
         "name": "Ethernet",
         "value": 51
     },
@@ -129,10 +133,6 @@
     },
     {
         "name": "GitLab",
-        "value": 50
-    },
-    {
-        "name": "Prometheus",
         "value": 50
     },
     {
@@ -444,6 +444,10 @@
         "value": 22
     },
     {
+        "name": "Content",
+        "value": 22
+    },
+    {
         "name": "Proxy",
         "value": 22
     },
@@ -473,10 +477,6 @@
     },
     {
         "name": "控制台",
-        "value": 21
-    },
-    {
-        "name": "Content",
         "value": 21
     },
     {
