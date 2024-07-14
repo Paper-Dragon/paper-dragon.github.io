@@ -1228,10 +1228,6 @@
         "value": 11
     },
     {
-        "name": "Interface",
-        "value": 11
-    },
-    {
         "name": "安全性",
         "value": 11
     },
@@ -1357,6 +1353,10 @@
     },
     {
         "name": "About",
+        "value": 10
+    },
+    {
+        "name": "Interface",
         "value": 10
     },
     {
@@ -1576,6 +1576,10 @@
         "value": 9
     },
     {
+        "name": "Plus",
+        "value": 9
+    },
+    {
         "name": "CloudFlare",
         "value": 9
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "Updating",
-        "value": 9
-    },
-    {
-        "name": "MobaXterm",
         "value": 9
     }
 ]
