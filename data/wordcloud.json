@@ -9,7 +9,7 @@
     },
     {
         "name": "Docker",
-        "value": 214
+        "value": 215
     },
     {
         "name": "数据库",
@@ -228,16 +228,16 @@
         "value": 38
     },
     {
-        "name": "CoreDNS",
-        "value": 37
-    },
-    {
         "name": "磁盘空间",
         "value": 37
     },
     {
         "name": "Apache",
         "value": 36
+    },
+    {
+        "name": "CoreDNS",
+        "value": 35
     },
     {
         "name": "Desktop",
