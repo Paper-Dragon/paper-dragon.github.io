@@ -13,11 +13,11 @@
     },
     {
         "name": "数据库",
-        "value": 148
+        "value": 154
     },
     {
         "name": "操作系统",
-        "value": 144
+        "value": 145
     },
     {
         "name": "Python",
@@ -45,11 +45,11 @@
     },
     {
         "name": "浏览器",
-        "value": 80
+        "value": 82
     },
     {
         "name": "Nginx",
-        "value": 76
+        "value": 79
     },
     {
         "name": "IP地址",
@@ -85,15 +85,19 @@
     },
     {
         "name": "用户名",
-        "value": 61
+        "value": 62
     },
     {
         "name": "CentOS",
         "value": 58
     },
     {
+        "name": "MySQL",
+        "value": 58
+    },
+    {
         "name": "Ubuntu",
-        "value": 56
+        "value": 57
     },
     {
         "name": "环境变量",
@@ -106,10 +110,6 @@
     {
         "name": "分隔符",
         "value": 54
-    },
-    {
-        "name": "MySQL",
-        "value": 53
     },
     {
         "name": "正则表达式",
@@ -220,6 +220,10 @@
         "value": 38
     },
     {
+        "name": "MariaDB",
+        "value": 38
+    },
+    {
         "name": "L2TP",
         "value": 38
     },
@@ -232,12 +236,8 @@
         "value": 37
     },
     {
-        "name": "MariaDB",
-        "value": 37
-    },
-    {
         "name": "Apache",
-        "value": 35
+        "value": 36
     },
     {
         "name": "Desktop",
@@ -592,6 +592,10 @@
         "value": 18
     },
     {
+        "name": "身份验证",
+        "value": 18
+    },
+    {
         "name": "网络设备",
         "value": 18
     },
@@ -648,7 +652,7 @@
         "value": 17
     },
     {
-        "name": "身份验证",
+        "name": "安装包",
         "value": 17
     },
     {
@@ -709,10 +713,6 @@
     },
     {
         "name": "Starting",
-        "value": 16
-    },
-    {
-        "name": "安装包",
         "value": 16
     },
     {
@@ -1320,6 +1320,10 @@
         "value": 10
     },
     {
+        "name": "兼容性",
+        "value": 10
+    },
+    {
         "name": "WireGuard",
         "value": 10
     },
@@ -1349,6 +1353,10 @@
     },
     {
         "name": "Agent",
+        "value": 10
+    },
+    {
+        "name": "以下内容",
         "value": 10
     },
     {
@@ -1520,10 +1528,6 @@
         "value": 9
     },
     {
-        "name": "兼容性",
-        "value": 9
-    },
-    {
         "name": "有没有",
         "value": 9
     },
@@ -1565,10 +1569,6 @@
     },
     {
         "name": "依赖于",
-        "value": 9
-    },
-    {
-        "name": "以下内容",
         "value": 9
     },
     {
