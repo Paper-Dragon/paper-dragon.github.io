@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 331
+        "value": 332
     },
     {
         "name": "文件系统",
@@ -45,11 +45,11 @@
     },
     {
         "name": "浏览器",
-        "value": 82
+        "value": 86
     },
     {
         "name": "Nginx",
-        "value": 79
+        "value": 80
     },
     {
         "name": "IP地址",
@@ -388,6 +388,10 @@
         "value": 24
     },
     {
+        "name": "Content",
+        "value": 23
+    },
+    {
         "name": "Install",
         "value": 23
     },
@@ -433,10 +437,6 @@
     },
     {
         "name": "一部分",
-        "value": 22
-    },
-    {
-        "name": "Content",
         "value": 22
     },
     {
@@ -504,7 +504,15 @@
         "value": 20
     },
     {
+        "name": "开发者",
+        "value": 20
+    },
+    {
         "name": "计数器",
+        "value": 20
+    },
+    {
+        "name": "Control",
         "value": 20
     },
     {
@@ -517,6 +525,10 @@
     },
     {
         "name": "描述符",
+        "value": 20
+    },
+    {
+        "name": "Access",
         "value": 20
     },
     {
@@ -578,10 +590,6 @@
     {
         "name": "拉丁字母",
         "value": 19
-    },
-    {
-        "name": "开发者",
-        "value": 18
     },
     {
         "name": "复制到",
@@ -656,10 +664,6 @@
         "value": 17
     },
     {
-        "name": "Control",
-        "value": 17
-    },
-    {
         "name": "Chain",
         "value": 17
     },
@@ -669,10 +673,6 @@
     },
     {
         "name": "Networking",
-        "value": 17
-    },
-    {
-        "name": "Access",
         "value": 17
     },
     {
@@ -760,6 +760,10 @@
         "value": 16
     },
     {
+        "name": "这时候",
+        "value": 16
+    },
+    {
         "name": "Shadowsocks",
         "value": 16
     },
@@ -800,10 +804,6 @@
         "value": 15
     },
     {
-        "name": "这时候",
-        "value": 15
-    },
-    {
         "name": "返回值",
         "value": 15
     },
@@ -830,6 +830,10 @@
     {
         "name": "Program",
         "value": 15
+    },
+    {
+        "name": "Allow",
+        "value": 14
     },
     {
         "name": "消费者",
@@ -1088,6 +1092,10 @@
         "value": 12
     },
     {
+        "name": "安全性",
+        "value": 12
+    },
+    {
         "name": "端口号",
         "value": 12
     },
@@ -1145,10 +1153,6 @@
     },
     {
         "name": "Available",
-        "value": 11
-    },
-    {
-        "name": "Allow",
         "value": 11
     },
     {
@@ -1225,10 +1229,6 @@
     },
     {
         "name": "Success",
-        "value": 11
-    },
-    {
-        "name": "安全性",
         "value": 11
     },
     {
