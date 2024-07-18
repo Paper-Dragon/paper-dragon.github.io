@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 332
+        "value": 334
     },
     {
         "name": "文件系统",
@@ -1404,6 +1404,10 @@
         "value": 10
     },
     {
+        "name": "License",
+        "value": 10
+    },
+    {
         "name": "Provider",
         "value": 10
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "Android",
-        "value": 9
-    },
-    {
-        "name": "Updating",
         "value": 9
     }
 ]
