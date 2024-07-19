@@ -9,7 +9,7 @@
     },
     {
         "name": "Docker",
-        "value": 215
+        "value": 217
     },
     {
         "name": "数据库",
@@ -148,11 +148,15 @@
         "value": 47
     },
     {
+        "name": "System",
+        "value": 46
+    },
+    {
         "name": "JumpServer",
         "value": 46
     },
     {
-        "name": "System",
+        "name": "Host",
         "value": 45
     },
     {
@@ -165,10 +169,6 @@
     },
     {
         "name": "Service",
-        "value": 44
-    },
-    {
-        "name": "Host",
         "value": 44
     },
     {
@@ -396,6 +396,10 @@
         "value": 23
     },
     {
+        "name": "Proxy",
+        "value": 23
+    },
+    {
         "name": "Example",
         "value": 23
     },
@@ -440,11 +444,11 @@
         "value": 22
     },
     {
-        "name": "Proxy",
+        "name": "为什么",
         "value": 22
     },
     {
-        "name": "为什么",
+        "name": "详细信息",
         "value": 22
     },
     {
@@ -473,10 +477,6 @@
     },
     {
         "name": "注册表",
-        "value": 21
-    },
-    {
-        "name": "详细信息",
         "value": 21
     },
     {
@@ -784,6 +784,10 @@
         "value": 15
     },
     {
+        "name": "Warning",
+        "value": 15
+    },
+    {
         "name": "网络服务",
         "value": 15
     },
@@ -813,6 +817,10 @@
     },
     {
         "name": "PostgreSQL",
+        "value": 15
+    },
+    {
+        "name": "Port",
         "value": 15
     },
     {
@@ -905,10 +913,6 @@
     },
     {
         "name": "资源配置",
-        "value": 14
-    },
-    {
-        "name": "Port",
         "value": 14
     },
     {
@@ -1196,10 +1200,6 @@
         "value": 11
     },
     {
-        "name": "Warning",
-        "value": 11
-    },
-    {
         "name": "Gateway",
         "value": 11
     },
@@ -1308,6 +1308,10 @@
         "value": 10
     },
     {
+        "name": "错误信息",
+        "value": 10
+    },
+    {
         "name": "可读性",
         "value": 10
     },
@@ -1345,6 +1349,10 @@
     },
     {
         "name": "Error",
+        "value": 10
+    },
+    {
+        "name": "账号密码",
         "value": 10
     },
     {
@@ -1389,6 +1397,10 @@
     },
     {
         "name": "解决办法",
+        "value": 10
+    },
+    {
+        "name": "Intel",
         "value": 10
     },
     {
@@ -1492,10 +1504,6 @@
         "value": 9
     },
     {
-        "name": "错误信息",
-        "value": 9
-    },
-    {
         "name": "最大值",
         "value": 9
     },
@@ -1548,10 +1556,6 @@
         "value": 9
     },
     {
-        "name": "账号密码",
-        "value": 9
-    },
-    {
         "name": "版本信息",
         "value": 9
     },
@@ -1589,10 +1593,6 @@
     },
     {
         "name": "FastCGI",
-        "value": 9
-    },
-    {
-        "name": "Intel",
         "value": 9
     },
     {
