@@ -1,15 +1,15 @@
 [
     {
         "name": "Linux",
-        "value": 334
+        "value": 336
+    },
+    {
+        "name": "Docker",
+        "value": 230
     },
     {
         "name": "文件系统",
         "value": 225
-    },
-    {
-        "name": "Docker",
-        "value": 217
     },
     {
         "name": "数据库",
@@ -17,7 +17,7 @@
     },
     {
         "name": "操作系统",
-        "value": 145
+        "value": 148
     },
     {
         "name": "Python",
@@ -32,11 +32,11 @@
         "value": 98
     },
     {
-        "name": "宿主机",
-        "value": 91
+        "name": "Windows",
+        "value": 92
     },
     {
-        "name": "Windows",
+        "name": "宿主机",
         "value": 91
     },
     {
@@ -80,16 +80,16 @@
         "value": 69
     },
     {
+        "name": "用户名",
+        "value": 66
+    },
+    {
         "name": "命令行",
         "value": 64
     },
     {
         "name": "文件名",
         "value": 63
-    },
-    {
-        "name": "用户名",
-        "value": 62
     },
     {
         "name": "MySQL",
@@ -560,6 +560,10 @@
         "value": 20
     },
     {
+        "name": "Token",
+        "value": 20
+    },
+    {
         "name": "检查点",
         "value": 20
     },
@@ -653,10 +657,6 @@
     },
     {
         "name": "Thread",
-        "value": 18
-    },
-    {
-        "name": "Token",
         "value": 18
     },
     {
