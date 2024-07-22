@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 336
+        "value": 337
     },
     {
         "name": "Docker",
@@ -744,6 +744,10 @@
         "value": 17
     },
     {
+        "name": "拷贝到",
+        "value": 16
+    },
+    {
         "name": "Unit",
         "value": 16
     },
@@ -753,6 +757,10 @@
     },
     {
         "name": "Storage",
+        "value": 16
+    },
+    {
+        "name": "触发器",
         "value": 16
     },
     {
@@ -802,10 +810,6 @@
     {
         "name": "子系统",
         "value": 16
-    },
-    {
-        "name": "拷贝到",
-        "value": 15
     },
     {
         "name": "大部分",
@@ -901,10 +905,6 @@
     },
     {
         "name": "Oracle",
-        "value": 14
-    },
-    {
-        "name": "触发器",
         "value": 14
     },
     {
@@ -1216,6 +1216,10 @@
         "value": 11
     },
     {
+        "name": "兼容性",
+        "value": 11
+    },
+    {
         "name": "怎么办",
         "value": 11
     },
@@ -1269,6 +1273,10 @@
     },
     {
         "name": "稳定性",
+        "value": 11
+    },
+    {
+        "name": "Updating",
         "value": 11
     },
     {
@@ -1361,10 +1369,6 @@
     },
     {
         "name": "Processing",
-        "value": 10
-    },
-    {
-        "name": "兼容性",
         "value": 10
     },
     {
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "Avail",
-        "value": 9
-    },
-    {
-        "name": "源地址",
         "value": 9
     }
 ]
