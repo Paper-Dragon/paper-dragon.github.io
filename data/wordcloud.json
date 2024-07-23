@@ -53,7 +53,7 @@
     },
     {
         "name": "IP地址",
-        "value": 76
+        "value": 79
     },
     {
         "name": "防火墙",
@@ -216,11 +216,15 @@
         "value": 41
     },
     {
+        "name": "主机名",
+        "value": 40
+    },
+    {
         "name": "Java",
         "value": 39
     },
     {
-        "name": "主机名",
+        "name": "RabbitMQ",
         "value": 39
     },
     {
@@ -413,10 +417,6 @@
     },
     {
         "name": "Alive",
-        "value": 24
-    },
-    {
-        "name": "RabbitMQ",
         "value": 24
     },
     {
@@ -704,6 +704,10 @@
         "value": 17
     },
     {
+        "name": "Warning",
+        "value": 17
+    },
+    {
         "name": "Push",
         "value": 17
     },
@@ -829,10 +833,6 @@
     },
     {
         "name": "转发给",
-        "value": 15
-    },
-    {
-        "name": "Warning",
         "value": 15
     },
     {
