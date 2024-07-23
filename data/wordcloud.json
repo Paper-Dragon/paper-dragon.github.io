@@ -172,6 +172,10 @@
         "value": 45
     },
     {
+        "name": "FastAPI",
+        "value": 45
+    },
+    {
         "name": "Redis",
         "value": 44
     },
@@ -209,10 +213,6 @@
     },
     {
         "name": "驱动程序",
-        "value": 41
-    },
-    {
-        "name": "FastAPI",
         "value": 41
     },
     {
@@ -1052,6 +1052,10 @@
         "value": 13
     },
     {
+        "name": "安全性",
+        "value": 13
+    },
+    {
         "name": "中间件",
         "value": 13
     },
@@ -1145,10 +1149,6 @@
     },
     {
         "name": "Rewrite",
-        "value": 12
-    },
-    {
-        "name": "安全性",
         "value": 12
     },
     {
