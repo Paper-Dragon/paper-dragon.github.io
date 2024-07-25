@@ -1,7 +1,7 @@
 [
     {
         "name": "Linux",
-        "value": 338
+        "value": 339
     },
     {
         "name": "Docker",
@@ -504,6 +504,10 @@
         "value": 21
     },
     {
+        "name": "也就是说",
+        "value": 21
+    },
+    {
         "name": "执行命令",
         "value": 21
     },
@@ -541,10 +545,6 @@
     },
     {
         "name": "MyWindow",
-        "value": 20
-    },
-    {
-        "name": "也就是说",
         "value": 20
     },
     {
@@ -1140,6 +1140,10 @@
         "value": 12
     },
     {
+        "name": "系统启动",
+        "value": 12
+    },
+    {
         "name": "转换成",
         "value": 12
     },
@@ -1593,10 +1597,6 @@
     },
     {
         "name": "MobaXterm",
-        "value": 9
-    },
-    {
-        "name": "Daemon",
         "value": 9
     }
 ]
