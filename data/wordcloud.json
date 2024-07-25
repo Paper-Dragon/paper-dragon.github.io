@@ -5,7 +5,7 @@
     },
     {
         "name": "Docker",
-        "value": 262
+        "value": 259
     },
     {
         "name": "文件系统",
@@ -908,10 +908,6 @@
         "value": 14
     },
     {
-        "name": "Dockerhub",
-        "value": 14
-    },
-    {
         "name": "Widget",
         "value": 14
     },
@@ -1102,6 +1098,10 @@
     {
         "name": "Student",
         "value": 13
+    },
+    {
+        "name": "Dockerhub",
+        "value": 12
     },
     {
         "name": "特殊字符",
