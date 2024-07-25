@@ -5,7 +5,9 @@
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "start": "wrangler dev",
+    "select": "wrangler d1 execute d1db --remote --command=\"SELECT * FROM dockerratelimitLimit ORDER BY update_time DESC LIMIT 10\" ",
+    "initdb": "wrangler d1 execute d1db --remote --file=\"./sql/schema.sql\""
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.1.19",

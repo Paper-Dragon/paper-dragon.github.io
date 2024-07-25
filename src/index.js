@@ -43,8 +43,8 @@ async function fetchAndSaveData(env, token) {
     if (existingRecord) {
       // 更新现有记录
       serverStatus = 'update';
-      await env.d1db.prepare('UPDATE dockerratelimitLimit SET date = ?, ratelimit_limit = ?, ratelimit_remaining = ?, server_status = ? WHERE docker_ratelimit_source = ?')
-        .bind(date, ratelimitLimit, ratelimitRemaining, serverStatus, dockerRatelimitSource)
+      await env.d1db.prepare('UPDATE dockerratelimitLimit SET date = ?, ratelimit_limit = ?, ratelimit_remaining = ?, server_status = ? WHERE docker_ratelimit_source = ?, update_time = ?')
+        .bind(date, ratelimitLimit, ratelimitRemaining, serverStatus, dockerRatelimitSource, "CURRENT_TIMESTAMP")
         .run();
       console.log('Record updated successfully');
     } else {
@@ -125,7 +125,7 @@ export default {
     let docker_body = "";
     try {
       // 查询数据库中的所有记录
-      const queryResult = await env.d1db.prepare('SELECT * FROM dockerratelimitLimit ORDER BY date DESC').all();
+      const queryResult = await env.d1db.prepare('SELECT * FROM dockerratelimitLimit ORDER BY update_time DESC').all();
   
       // 构建表格行的 HTML 代码
       
@@ -136,6 +136,7 @@ export default {
           <td>${record.ratelimit_limit}</td>
           <td>${record.ratelimit_remaining}</td>
           <td>${record.server_status}</td>
+          <td>${record.update_time}</td>
         </tr>`;
       }
   
@@ -174,6 +175,7 @@ export default {
               <th colspan="1">Rate Limit</th>
               <th colspan="1">Rate Limit Remaining</th>
               <th colspan="1">Server Status</th>
+              <th colspan="1">Update Time</th>
             </tr>
           </thead>
           <tbody>
@@ -207,6 +209,7 @@ export default {
               <th colspan="1">Rate Limit</th>
               <th colspan="1">Rate Limit Remaining</th>
               <th colspan="1">Server Status</th>
+              <th colspan="1">Update Time</th>
             </tr>
           </thead>
           <tbody>
