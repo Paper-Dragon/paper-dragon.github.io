@@ -42,11 +42,9 @@ async function fetchAndSaveData(env, token) {
 
     if (existingRecord) {
       // 更新现有记录
-      serverStatus = 'update';
-      await env.d1db.prepare('UPDATE dockerratelimitLimit SET date = ?, ratelimit_limit = ?, ratelimit_remaining = ?, server_status = ?, update_time = ? WHERE docker_ratelimit_source = ?')
-        .bind(date, ratelimitLimit, ratelimitRemaining, serverStatus, dockerRatelimitSource, "CURRENT_TIMESTAMP")
-        .run();
-      console.log('Record updated successfully');
+      serverStatus = "update";
+      await env.d1db.prepare("UPDATE dockerratelimitLimit SET date = ?, ratelimit_limit = ?, ratelimit_remaining = ?, server_status = ?, update_time = CURRENT_TIMESTAMP WHERE docker_ratelimit_source = ?").bind(date, ratelimitLimit, ratelimitRemaining, serverStatus, dockerRatelimitSource).run();
+      console.log("Record updated successfully");
     } else {
       // 插入新记录
       await env.d1db.prepare('INSERT INTO dockerratelimitLimit (date, docker_ratelimit_source, ratelimit_limit, ratelimit_remaining, server_status) VALUES (?, ?, ?, ?, ?)')
