@@ -220,6 +220,10 @@
         "value": 41
     },
     {
+        "name": "路由器",
+        "value": 40
+    },
+    {
         "name": "主机名",
         "value": 40
     },
@@ -269,10 +273,6 @@
     },
     {
         "name": "Markdown",
-        "value": 34
-    },
-    {
-        "name": "路由器",
         "value": 34
     },
     {
@@ -1132,6 +1132,14 @@
         "value": 12
     },
     {
+        "name": "Gateway",
+        "value": 12
+    },
+    {
+        "name": "路由表",
+        "value": 12
+    },
+    {
         "name": "转换成",
         "value": 12
     },
@@ -1261,10 +1269,6 @@
     },
     {
         "name": "Newwork",
-        "value": 11
-    },
-    {
-        "name": "Gateway",
         "value": 11
     },
     {
@@ -1409,10 +1413,6 @@
     },
     {
         "name": "From",
-        "value": 10
-    },
-    {
-        "name": "路由表",
         "value": 10
     },
     {
