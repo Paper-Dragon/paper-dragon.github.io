@@ -7,11 +7,13 @@
     "dev": "wrangler dev",
     "start": "wrangler dev",
     "select": "wrangler d1 execute d1db --remote --command=\"SELECT * FROM dockerratelimitLimit ORDER BY update_time DESC LIMIT 10\" ",
+    "exportdb": "wrangler d1 export d1db --remote --output \"./sql/old.sql\"",
+    "importdb": "wrangler d1 execute d1db --remote --file=\"./sql/old.sql\"",
     "initdb": "wrangler d1 execute d1db --remote --file=\"./sql/schema.sql\""
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "^0.1.19",
     "vitest": "1.3.0",
-    "wrangler": "^3.66.0"
+    "wrangler": "^3.67.1"
   }
 }

@@ -14,6 +14,22 @@ const deploymentsEndpoint =
   "https://api.cloudflare.com/client/v4/accounts/5e5ac3054112f395febf4678f54f8278/pages/projects/cloudnative/deployments";
 const projectEndpoint =
   "https://api.cloudflare.com/client/v4/accounts/5e5ac3054112f395febf4678f54f8278/pages/projects/cloudnative";
+const country_api = "https://ifconfig.icu"
+
+
+async function fetchCountry(dockerRatelimitSource) {
+  try {
+    const response = await fetch(`${country_api}/${dockerRatelimitSource}/country`);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const countryData = await response.text();
+    return countryData;
+  } catch (error) {
+    console.error('Error fetching country data:', error);
+    return null;  // or you can return a default value or handle the error as needed
+  }
+}
 
 
 async function fetchAndSaveData(env, token) {
@@ -35,26 +51,27 @@ async function fetchAndSaveData(env, token) {
     const ratelimitRemaining = headers.get('ratelimit-remaining');
     let serverStatus = "new";
 
+    let country = await fetchCountry(dockerRatelimitSource);
+    
     // 查询是否已存在相同的 dockerRatelimitSource 记录
     const existingRecord = await env.d1db.prepare('SELECT * FROM dockerratelimitLimit WHERE docker_ratelimit_source = ?')
       .bind(dockerRatelimitSource)
       .first();
 
-    if (existingRecord) {
-      // 更新现有记录
-      serverStatus = "update";
-      await env.d1db.prepare("UPDATE dockerratelimitLimit SET date = ?, ratelimit_limit = ?, ratelimit_remaining = ?, server_status = ?, update_time = CURRENT_TIMESTAMP WHERE docker_ratelimit_source = ?").bind(date, ratelimitLimit, ratelimitRemaining, serverStatus, dockerRatelimitSource).run();
-      console.log("Record updated successfully");
-    } else {
-      // 插入新记录
-      await env.d1db.prepare('INSERT INTO dockerratelimitLimit (date, docker_ratelimit_source, ratelimit_limit, ratelimit_remaining, server_status) VALUES (?, ?, ?, ?, ?)')
-        .bind(date, dockerRatelimitSource, ratelimitLimit, ratelimitRemaining, serverStatus)
-        .run();
-      console.log('Data saved successfully');
+      if (existingRecord) {
+        serverStatus = "update";
+        await env.d1db
+        .prepare("UPDATE dockerratelimitLimit SET date = ?, country = ?, ratelimit_limit = ?, ratelimit_remaining = ?, server_status = ?, update_time = CURRENT_TIMESTAMP WHERE docker_ratelimit_source = ?")
+        .bind(date, country, ratelimitLimit, ratelimitRemaining, serverStatus, dockerRatelimitSource).run();
+        console.log("Record updated successfully");
+      } else {
+        await env.d1db.prepare("INSERT INTO dockerratelimitLimit (date, docker_ratelimit_source, country, ratelimit_limit, ratelimit_remaining, server_status) VALUES (?, ?, ?, ?, ?, ?)")
+        .bind(date, dockerRatelimitSource, country, ratelimitLimit, ratelimitRemaining, serverStatus).run();
+        console.log("Data saved successfully");
+      }
+    } catch (error) {
+      console.error("Error:", error);
     }
-  } catch (error) {
-    console.error('Error:', error);
-  }
 }
 
 function sleep(ms) {
@@ -130,11 +147,13 @@ export default {
       for (const record of queryResult.results) {
         docker_body += `<tr>
           <td>${record.docker_ratelimit_source}</td>
+          <td>${record.country}</td>
           <td>${record.date}</td>
           <td>${record.ratelimit_limit}</td>
           <td>${record.ratelimit_remaining}</td>
           <td>${record.server_status}</td>
           <td>${record.update_time}</td>
+          
         </tr>`;
       }
   
@@ -169,6 +188,7 @@ export default {
           <thead>
             <tr>
               <th colspan="1">Docker Rate Limit Source</th>
+              <th colspan="1">Country</th>
               <th colspan="1">Date</th>
               <th colspan="1">Rate Limit</th>
               <th colspan="1">Rate Limit Remaining</th>
