@@ -96,6 +96,10 @@
         "value": 64
     },
     {
+        "name": "路由器",
+        "value": 64
+    },
+    {
         "name": "MySQL",
         "value": 59
     },
@@ -146,10 +150,6 @@
     {
         "name": "GitLab",
         "value": 50
-    },
-    {
-        "name": "路由器",
-        "value": 49
     },
     {
         "name": "根目录",
@@ -1588,15 +1588,15 @@
         "value": 10
     },
     {
+        "name": "Cisco",
+        "value": 10
+    },
+    {
         "name": "百分比",
         "value": 10
     },
     {
         "name": "Bytes",
-        "value": 10
-    },
-    {
-        "name": "OAuth2PasswordBearer",
         "value": 10
     }
 ]
