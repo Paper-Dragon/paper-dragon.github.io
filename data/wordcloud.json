@@ -25,7 +25,7 @@
     },
     {
         "name": "Windows",
-        "value": 101
+        "value": 102
     },
     {
         "name": "Kubernetes",
@@ -368,6 +368,10 @@
         "value": 25
     },
     {
+        "name": "为什么",
+        "value": 25
+    },
+    {
         "name": "分布式",
         "value": 25
     },
@@ -385,10 +389,6 @@
     },
     {
         "name": "Unix",
-        "value": 24
-    },
-    {
-        "name": "为什么",
         "value": 24
     },
     {
@@ -960,6 +960,10 @@
         "value": 14
     },
     {
+        "name": "Enter",
+        "value": 14
+    },
+    {
         "name": "Oracle",
         "value": 14
     },
@@ -1053,10 +1057,6 @@
     },
     {
         "name": "标识符",
-        "value": 13
-    },
-    {
-        "name": "Enter",
         "value": 13
     },
     {
