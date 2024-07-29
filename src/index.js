@@ -223,6 +223,7 @@ export default {
           <thead>
             <tr>
               <th colspan="1">Server Address</th>
+              <th colspan="1">Country</th>
               <th colspan="1">Update Date</th>
               <th colspan="1">Rate Limit</th>
               <th colspan="1">Rate Limit Remaining</th>
