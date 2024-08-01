@@ -88,15 +88,15 @@
         "value": 68
     },
     {
+        "name": "路由器",
+        "value": 65
+    },
+    {
         "name": "命令行",
         "value": 64
     },
     {
         "name": "文件名",
-        "value": 64
-    },
-    {
-        "name": "路由器",
         "value": 64
     },
     {
@@ -176,6 +176,10 @@
         "value": 46
     },
     {
+        "name": "主机名",
+        "value": 45
+    },
+    {
         "name": "NetworkPolicy",
         "value": 45
     },
@@ -222,10 +226,6 @@
     {
         "name": "Apache",
         "value": 41
-    },
-    {
-        "name": "主机名",
-        "value": 40
     },
     {
         "name": "Java",
@@ -384,6 +384,10 @@
         "value": 25
     },
     {
+        "name": "控制台",
+        "value": 25
+    },
+    {
         "name": "Access",
         "value": 25
     },
@@ -512,7 +516,7 @@
         "value": 21
     },
     {
-        "name": "控制台",
+        "name": "身份验证",
         "value": 21
     },
     {
@@ -545,6 +549,10 @@
     },
     {
         "name": "MyWindow",
+        "value": 20
+    },
+    {
+        "name": "网络设备",
         "value": 20
     },
     {
@@ -596,10 +604,6 @@
         "value": 19
     },
     {
-        "name": "网络设备",
-        "value": 19
-    },
-    {
         "name": "Memory",
         "value": 19
     },
@@ -613,10 +617,6 @@
     },
     {
         "name": "Starting",
-        "value": 19
-    },
-    {
-        "name": "身份验证",
         "value": 19
     },
     {
@@ -824,6 +824,10 @@
         "value": 16
     },
     {
+        "name": "安全性",
+        "value": 15
+    },
+    {
         "name": "互联网",
         "value": 15
     },
@@ -1024,10 +1028,6 @@
         "value": 13
     },
     {
-        "name": "安全性",
-        "value": 13
-    },
-    {
         "name": "Number",
         "value": 13
     },
@@ -1129,6 +1129,10 @@
     },
     {
         "name": "怎么办",
+        "value": 12
+    },
+    {
+        "name": "稳定性",
         "value": 12
     },
     {
@@ -1264,10 +1268,6 @@
         "value": 11
     },
     {
-        "name": "稳定性",
-        "value": 11
-    },
-    {
         "name": "进一步",
         "value": 11
     },
@@ -1389,6 +1389,10 @@
     },
     {
         "name": "提供者",
+        "value": 11
+    },
+    {
+        "name": "Cisco",
         "value": 11
     },
     {
@@ -1585,10 +1589,6 @@
     },
     {
         "name": "IfVersion",
-        "value": 10
-    },
-    {
-        "name": "Cisco",
         "value": 10
     },
     {
