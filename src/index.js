@@ -140,7 +140,7 @@ export default {
     let docker_body = "";
     try {
       // 查询数据库中的所有记录
-      const queryResult = await env.d1db.prepare('SELECT * FROM dockerratelimitLimit ORDER BY update_time DESC').all();
+      const queryResult = await env.d1db.prepare('SELECT * FROM dockerratelimitLimit ORDER BY update_time DESC LIMIT 30').all();
   
       // 构建表格行的 HTML 代码
       
