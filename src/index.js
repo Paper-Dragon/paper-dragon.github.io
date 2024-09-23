@@ -115,11 +115,19 @@ export default {
 
     let response = await fetch(projectEndpoint, init);
     const projectResponse = await response.json();
+    
+    const domainsArray = projectResponse.result.domains;
+    let domainsList = '<ul>';
+    domainsArray.forEach(domain => {
+        domainsList += `<li>${domain}</li>`;
+    });
+    domainsList += '</ul>';
+
     content += `<p>Project Name: ${projectResponse.result.name}</p>`;
     content += `<p>Project ID: ${projectResponse.result.id}</p>`;
     content += `<p>Pages Subdomain: ${projectResponse.result.subdomain}</p>`;
-    content += `<p>Domains: ${projectResponse.result.domains}</p>`;
-    content += `<a href="${projectResponse.result.canonical_deployment.url}"><p>Latest preview: ${projectResponse.result.canonical_deployment.url}</p></a>`;
+    content += `Latest preview:<a href="${projectResponse.result.canonical_deployment.url}"><p>${projectResponse.result.canonical_deployment.url}</p></a>`;
+    content += `<p>Domains:</p>${domainsList}`;
 
     response = await fetch(deploymentsEndpoint, init);
     const deploymentsResponse = await response.json();
