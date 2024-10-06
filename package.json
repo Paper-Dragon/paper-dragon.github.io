@@ -12,8 +12,8 @@
     "initdb": "wrangler d1 execute d1db --remote --file=\"./sql/schema.sql\""
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.1.19",
-    "vitest": "1.3.0",
-    "wrangler": "^3.78.7"
+    "@cloudflare/vitest-pool-workers": "0.5.14",
+    "vitest": "2.1.2",
+    "wrangler": "^3.80.0"
   }
 }

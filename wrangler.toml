@@ -6,12 +6,11 @@ compatibility_flags = ["nodejs_compat"]
 [triggers]
 crons = ["*/30 * * * *"]
 
-
-# Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
-# Note: Use secrets to store sensitive data.
-# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 [vars]
 API_TOKEN = "35Ucc3tmvL3vhXhqF3NN_Fi1rJo0eURpVwRxtKIJ"
+
+[observability]
+enabled = true
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#workers-ai
